@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>运作方式 · Flâneur</title>
+<meta name="description" content="如何使用Flâneur：选择城市和日期，选择档案，告知限制条件，审核并获取逐日行程，附有经过核实的开放时间和预订链接。">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://flaneur.travel/zh/instructions-zh.html">
+<link rel="alternate" hreflang="en" href="https://flaneur.travel/instructions.html">
+<link rel="alternate" hreflang="it" href="https://flaneur.travel/it/istruzioni-it.html">
+<link rel="alternate" hreflang="fr" href="https://flaneur.travel/fr/instructions-fr.html">
+<link rel="alternate" hreflang="de" href="https://flaneur.travel/de/instructions-de.html">
+<link rel="alternate" hreflang="es" href="https://flaneur.travel/es/instructions-es.html">
+<link rel="alternate" hreflang="pt" href="https://flaneur.travel/pt/istruzioni-pt.html">
+<link rel="alternate" hreflang="nl" href="https://flaneur.travel/nl/hoe-het-werkt-nl.html">
+<link rel="alternate" hreflang="zh" href="https://flaneur.travel/zh/instructions-zh.html">
+<link rel="alternate" hreflang="ja" href="https://flaneur.travel/ja/instructions-ja.html">
+<link rel="alternate" hreflang="ru" href="https://flaneur.travel/ru/kak-eto-rabotaet-ru.html">
+<link rel="alternate" hreflang="ko" href="https://flaneur.travel/ko/how-it-works-ko.html">
+<link rel="alternate" hreflang="hi" href="https://flaneur.travel/hi/kaise-kaam-karta-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://flaneur.travel/instructions.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaneur.travel/zh/instructions-zh.html">
+<meta property="og:title" content="运作方式 · Flâneur">
+<meta property="og:description" content="如何使用Flâneur：选择城市和日期，选择档案，告知限制条件，审核并获取逐日行程，附有经过核实的开放时间和预订链接。">
+<meta property="og:image" content="https://flaneur.travel/assets/hero-flaneur.webp">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --paper:#ffffff;--paper-warm:#f7f4ef;--ink:#1a1714;--ink-muted:#5c5751;--ink-subtle:#9c9690;--pompeiano:#8b2a1a;--rule:#d8d2c8;
+  --ff-e:'Cormorant Garamond',Georgia,serif;--ff-s:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.page-head{padding:5rem 2.5rem 1rem;max-width:800px;margin:0 auto;}
+.section{padding:2.5rem 2.5rem;max-width:800px;margin:0 auto;}
+.eyebrow{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:1rem;}
+.page-title{font-family:var(--ff-e);font-size:clamp(2.4rem,5vw,3.6rem);font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:1.5rem;}
+.page-title em{font-style:italic;color:var(--pompeiano);}
+.lead{font-size:1rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.85;}
+.sec-title{font-family:var(--ff-e);font-size:clamp(1.6rem,3.4vw,2.2rem);font-weight:300;line-height:1.2;color:var(--ink);margin-bottom:0.75rem;}
+.sec-title em{font-style:italic;color:var(--pompeiano);}
+.sec-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.8;}
+hr.rule{border:none;border-top:1px solid var(--rule);}
+.steps{border:1px solid var(--rule);margin-top:2.5rem;}
+.step{display:grid;grid-template-columns:3.5rem 1fr;border-bottom:1px solid var(--rule);}
+.step:last-child{border-bottom:none;}
+.s-num{font-family:var(--ff-e);font-size:1.3rem;font-weight:300;color:var(--pompeiano);padding:1.5rem 0 1.5rem 1.5rem;display:flex;align-items:flex-start;border-right:1px solid var(--rule);}
+.s-body{padding:1.5rem 1.75rem;}
+.s-body h3{font-family:var(--ff-e);font-size:1.1rem;font-weight:400;color:var(--ink);margin-bottom:0.35rem;}
+.s-body p{font-size:0.875rem;color:var(--ink-muted);line-height:1.75;font-weight:300;}
+.prof-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule);margin-top:2.5rem;}
+.prof-card{padding:1.6rem 1.35rem;border-right:1px solid var(--rule);}
+.prof-card:last-child{border-right:none;}
+.prof-card h3{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;color:var(--ink);margin-bottom:0.2rem;}
+.prof-card .pt{font-size:0.78rem;color:var(--ink-subtle);font-style:italic;margin-bottom:0.85rem;}
+.prof-card p{font-size:0.82rem;color:var(--ink-muted);line-height:1.7;font-weight:300;}
+.btn-primary{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.75rem 1.75rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.cta-final{border-top:1px solid var(--rule);padding:5rem 2.5rem;max-width:800px;margin:0 auto;}
+.cta-final h2{font-family:var(--ff-e);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ink);line-height:1.15;margin-bottom:1rem;}
+.cta-final h2 em{font-style:italic;color:var(--pompeiano);}
+.cta-final p{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:480px;line-height:1.8;margin-bottom:2rem;}
+footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+.footer-logo{font-family:var(--ff-e);font-size:1.1rem;color:var(--ink-subtle);}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{font-size:0.72rem;color:var(--ink-subtle);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;}
+@media(max-width:600px){
+  nav{padding:0 1.25rem;}
+  .page-head,.section,.cta-final{padding-left:1.25rem;padding-right:1.25rem;}
+  .step{grid-template-columns:2.75rem 1fr;}
+  .s-num{padding-left:1rem;}
+  .s-body{padding:1.25rem 1.25rem;}
+  .prof-grid{grid-template-columns:1fr;}
+  .prof-card{border-right:none;border-bottom:1px solid var(--rule);}
+  .prof-card:last-child{border-bottom:none;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="https://itinerary-engine.vercel.app/wizard">Flâneur</a>
+  <a class="nav-btn" href="https://itinerary-engine.vercel.app/wizard">规划我的旅行</a>
+</nav>
+
+<div class="page-head">
+  <p class="eyebrow">运作方式</p>
+  <h1 class="page-title">几个问题。<br><em>一天精准行程。</em></h1>
+  <p class="lead">一份看似简单的行程背后，是一个核查开放时间、计算距离并将你的选择安排成合理序列的引擎。你只需花五分钟回答问题。</p>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">五个步骤</p>
+  <h2 class="sec-title">从浏览器<em>到街道。</em></h2>
+  <div class="steps">
+    <div class="step"><div class="s-num">1</div><div class="s-body"><h3>选择城市和日期</h3><p>选择我们覆盖的城市之一，告诉我们你有几天时间。我们会核查你确切旅行日期的开放时间、每周闭馆和季节性例外。</p></div></div>
+    <div class="step"><div class="s-num">2</div><div class="s-body"><h3>选择你的档案</h3><p>好奇者、爱好者或专家。根据你的选择，向导会提出不同的问题，并以不同的强度规划一天：从一次简单点击到完整的策展会话。</p></div></div>
+    <div class="step"><div class="s-num">3</div><div class="s-body"><h3>告知你的限制条件</h3><p>携带儿童、行动不便、厌恶排队、对特定艺术家的热情。我们会考虑到一切。</p></div></div>
+    <div class="step"><div class="s-num">4</div><div class="s-body"><h3>审核与调整</h3><p>在最终生成前，排除已参观过的地方，添加一日游行程，确认饮食偏好。</p></div></div>
+    <div class="step"><div class="s-num">5</div><div class="s-body"><h3>获取你的行程</h3><p>逐日逐时的计划。步行距离、交通时间、开放时段、餐饮建议，以及需要预订时的直接链接。</p></div></div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">哪种档案适合你</p>
+  <h2 class="sec-title">你想<em>深入到什么程度？</em></h2>
+  <p class="sec-body">你在每次行程开始时选择档案。它不仅决定你看什么，还决定如何向你提问以及计划对你的量身程度。</p>
+  <div class="prof-grid">
+    <div class="prof-card">
+      <h3>好奇者</h3>
+      <p class="pt">为那些想欣赏杰作却无需艺术史学位的人</p>
+      <p>三个问题：城市、天数、出发日期。引擎负责其余一切，无需选择作品。行程节奏留有空间，供你漫步、享用悠长午餐，或只是坐在广场上。</p>
+    </div>
+    <div class="prof-card">
+      <h3>爱好者</h3>
+      <p class="pt">为那些了解大师、想要走得更远的人</p>
+      <p>你浏览所选城市的活跃艺术家并标记重要的那些。引擎将你的选择聚合成逻辑性的、有时间节点的序列，在深度与呼吸空间之间取得平衡。</p>
+    </div>
+    <div class="prof-card">
+      <h3>专家</h3>
+      <p class="pt">为那些受过专业训练、拥有策展眼光的人</p>
+      <p>按学科和时期筛选，浏览完整目录并标记单件作品。每次选择都以外科手术般的精度塑造当天行程，将各站之间的空闲时间降至最低。</p>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">拿到手之后</p>
+  <h2 class="sec-title">一份<em>即用型文件。</em></h2>
+  <p class="sec-body">行程不是一份需要逐步核实的清单。它是一个已经组装好的一天：每个开放时间都已核查，每段距离都已计算，每个周一闭馆都已悄然排除。在需要预订的地方，场所卡片中附有购买链接，以及免排队和导览参观选项。</p>
+</div>
+
+<div class="cta-final">
+  <h2>你现在知道<br><em>会得到什么了。出发吧。</em></h2>
+  <p>与Flâneur共度五分钟，从5欧元起。剩下的交给我们。</p>
+  <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">开始规划</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Flâneur</span>
+  <ul class="footer-links">
+    <li><a href="about-zh.html">关于我们</a></li>
+    <li><a href="faq-zh.html">常见问题</a></li>
+    <li><a href="instructions-zh.html">运作方式</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

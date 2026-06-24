@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Come funziona &#183; Fl&#226;neur</title>
+<meta name="description" content="Fl&#226;neur ti mostra ogni opera d'arte di una città e ti lascia scegliere cosa vedere. Non una stima statistica. Il tuo itinerario, costruito su dati curatoriali reali.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://flaneur.travel/it/istruzioni-it.html">
+<link rel="alternate" hreflang="en" href="https://flaneur.travel/instructions.html">
+<link rel="alternate" hreflang="it" href="https://flaneur.travel/it/istruzioni-it.html">
+<link rel="alternate" hreflang="fr" href="https://flaneur.travel/fr/instructions-fr.html">
+<link rel="alternate" hreflang="de" href="https://flaneur.travel/de/instructions-de.html">
+<link rel="alternate" hreflang="es" href="https://flaneur.travel/es/instructions-es.html">
+<link rel="alternate" hreflang="pt" href="https://flaneur.travel/pt/istruzioni-pt.html">
+<link rel="alternate" hreflang="nl" href="https://flaneur.travel/nl/hoe-het-werkt-nl.html">
+<link rel="alternate" hreflang="zh" href="https://flaneur.travel/zh/instructions-zh.html">
+<link rel="alternate" hreflang="ja" href="https://flaneur.travel/ja/instructions-ja.html">
+<link rel="alternate" hreflang="ru" href="https://flaneur.travel/ru/kak-eto-rabotaet-ru.html">
+<link rel="alternate" hreflang="ko" href="https://flaneur.travel/ko/how-it-works-ko.html">
+<link rel="alternate" hreflang="hi" href="https://flaneur.travel/hi/kaise-kaam-karta-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://flaneur.travel/instructions.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaneur.travel/it/istruzioni-it.html">
+<meta property="og:title" content="Come funziona &#183; Fl&#226;neur">
+<meta property="og:description" content="Fl&#226;neur ti mostra ogni opera d'arte di una città e ti lascia scegliere cosa vedere. Non una stima statistica. Il tuo itinerario, costruito su dati curatoriali reali.">
+<meta property="og:image" content="https://flaneur.travel/assets/hero-flaneur.webp">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --paper:#ffffff;
+  --paper-warm:#f7f4ef;
+  --ink:#1a1714;
+  --ink-muted:#5c5751;
+  --ink-subtle:#9c9690;
+  --pompeiano:#8b2a1a;
+  --rule:#d8d2c8;
+  --ff-e:'Cormorant Garamond',Georgia,serif;
+  --ff-s:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+
+nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
+
+.page-head{padding:5rem 2.5rem 3rem;max-width:800px;margin:0 auto;}
+.eyebrow{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:1rem;}
+.page-title{font-family:var(--ff-e);font-size:clamp(2.4rem,5vw,3.8rem);font-weight:300;line-height:1.08;color:var(--ink);margin-bottom:1.5rem;}
+.page-title em{font-style:italic;color:var(--pompeiano);}
+.lead{font-size:1.05rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.85;}
+
+hr.rule{border:none;border-top:1px solid var(--rule);}
+
+/* CONTRAST */
+.section{padding:4rem 2.5rem;max-width:960px;margin:0 auto;}
+.section-narrow{padding:4rem 2.5rem;max-width:800px;margin:0 auto;}
+.section-head{margin-bottom:3rem;}
+.section-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.section-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.section-title em{font-style:italic;color:var(--pompeiano);}
+.section-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;max-width:600px;margin-top:1rem;}
+
+.contrast{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:960px;margin:0 auto;border:1px solid var(--rule);}
+.contrast-col{padding:2.5rem 2rem;}
+.contrast-col.ai-col{background:#1a1714;color:#f7f4ef;border-right:1px solid #333;}
+.contrast-col.flaneur-col{background:var(--paper-warm);}
+.contrast-label{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:1.25rem;opacity:0.55;}
+.ai-col .contrast-label{color:#f7f4ef;}
+.flaneur-col .contrast-label{color:var(--pompeiano);}
+.contrast-heading{font-family:var(--ff-e);font-size:1.55rem;font-weight:300;line-height:1.25;margin-bottom:1.25rem;}
+.ai-col .contrast-heading{color:#f7f4ef;}
+.flaneur-col .contrast-heading{color:var(--ink);}
+.flaneur-col .contrast-heading em{font-style:italic;color:var(--pompeiano);}
+.contrast-body{font-size:0.88rem;font-weight:300;line-height:1.8;}
+.ai-col .contrast-body{color:#9c9690;}
+.flaneur-col .contrast-body{color:var(--ink-muted);}
+.contrast-items{list-style:none;margin-top:1.25rem;display:flex;flex-direction:column;gap:0.6rem;}
+.contrast-items li{font-size:0.82rem;font-weight:300;padding-left:1.1rem;position:relative;line-height:1.55;}
+.contrast-items li::before{content:'';position:absolute;left:0;top:0.52em;width:5px;height:5px;border-radius:50%;}
+.ai-col .contrast-items li{color:#9c9690;}
+.ai-col .contrast-items li::before{background:#5c5751;}
+.flaneur-col .contrast-items li{color:var(--ink-muted);}
+.flaneur-col .contrast-items li::before{background:var(--pompeiano);}
+
+/* PROFILES */
+.prof-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule);}
+.prof-card{padding:1.75rem 1.5rem;border-right:1px solid var(--rule);}
+.prof-card:last-child{border-right:none;}
+.prof-card h3{font-family:var(--ff-e);font-size:1.5rem;font-weight:400;color:var(--ink);margin-bottom:0.15rem;}
+.prof-card .pt{font-size:0.75rem;color:var(--ink-subtle);font-style:italic;margin-bottom:0.9rem;line-height:1.5;}
+.prof-card p{font-size:0.82rem;color:var(--ink-muted);line-height:1.75;font-weight:300;}
+
+/* STEPS */
+.steps{display:flex;flex-direction:column;gap:0;}
+.step{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;padding:3.5rem 0;border-top:1px solid var(--rule);}
+.step:last-child{border-bottom:1px solid var(--rule);}
+.step-meta{}
+.step-num{font-family:var(--ff-e);font-size:3.5rem;font-weight:300;color:var(--rule);line-height:1;margin-bottom:1rem;}
+.step-title{font-family:var(--ff-e);font-size:1.6rem;font-weight:300;line-height:1.2;color:var(--ink);margin-bottom:0.75rem;}
+.step-title em{font-style:italic;color:var(--pompeiano);}
+.step-desc{font-size:0.88rem;font-weight:300;color:var(--ink-muted);line-height:1.8;}
+.step-desc strong{font-weight:500;color:var(--ink);}
+.step-desc a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;}
+
+/* STEP 5 full-width */
+.step-full{grid-template-columns:1fr !important;gap:1.5rem !important;}
+.step-full .step-meta{display:flex;align-items:baseline;gap:1.5rem;}
+.step-full .step-meta .step-num{margin-bottom:0;}
+.resto-split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:1.25rem;}
+.resto-label{font-size:0.65rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.6rem;}
+
+/* MOCKUPS */
+.mockup{background:var(--paper-warm);border:1px solid var(--rule);padding:1.25rem;font-family:var(--ff-s);}
+.mockup-title{font-family:var(--ff-e);font-size:1.1rem;font-weight:400;color:var(--ink);margin-bottom:0.25rem;}
+.mockup-sub{font-size:0.7rem;color:var(--ink-subtle);margin-bottom:1rem;}
+
+/* SCREENSHOTS */
+.shot{width:100%;height:auto;display:block;border:1px solid var(--rule);background:var(--paper-warm);}
+.shot+.shot{margin-top:0.75rem;}
+.hero-shot{width:100%;height:auto;display:block;border:1px solid var(--rule);margin-top:2.5rem;}
+
+.city-section-label{font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-subtle);margin-bottom:0.4rem;margin-top:0.75rem;}
+.city-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0.4rem;}
+.city-btn{background:var(--paper);border:1px solid var(--rule);padding:0.45rem 0.5rem;font-size:0.72rem;font-weight:400;color:var(--ink);text-align:center;}
+.city-btn.active{background:var(--pompeiano);color:var(--paper);border-color:var(--pompeiano);}
+
+.filter-row{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.75rem;}
+.filter-pill{font-size:0.68rem;border:1px solid var(--rule);padding:0.25rem 0.6rem;background:var(--paper);color:var(--ink-muted);}
+.filter-pill.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+
+.museum-row{border:1px solid var(--rule);margin-bottom:0.4rem;background:var(--paper);}
+.museum-row-head{display:flex;justify-content:space-between;align-items:center;padding:0.65rem 0.75rem;}
+.museum-row-name{font-size:0.82rem;font-weight:500;color:var(--ink);}
+.museum-row-count{font-size:0.7rem;color:var(--ink-subtle);}
+.museum-row-chevron{font-size:0.6rem;color:var(--ink-subtle);}
+.works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0.4rem;padding:0.5rem 0.75rem 0.75rem;}
+.work-card{background:var(--paper-warm);border:1px solid var(--rule);}
+.work-img-placeholder{width:100%;aspect-ratio:1;background:linear-gradient(135deg,#d8d2c8 0%,#c8c2b8 100%);}
+.work-info{padding:0.4rem;}
+.work-name{font-size:0.65rem;font-weight:500;color:var(--ink);line-height:1.3;}
+.work-artist{font-size:0.6rem;color:var(--ink-subtle);}
+.work-period{font-size:0.58rem;color:var(--ink-subtle);font-style:italic;}
+.work-card.pinned{border-color:var(--pompeiano);}
+.work-card.pinned .work-name{color:var(--pompeiano);}
+.pin-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--pompeiano);margin-right:3px;vertical-align:middle;}
+
+.day-header{padding:0.5rem 0;border-bottom:1px solid var(--rule);margin-bottom:0.75rem;}
+.day-label{font-size:0.6rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--pompeiano);}
+.day-zone{font-family:var(--ff-e);font-size:1.1rem;font-weight:300;color:var(--ink);}
+.day-date{font-size:0.7rem;color:var(--ink-subtle);}
+.stop-row{display:flex;gap:0.75rem;align-items:flex-start;padding:0.6rem 0;border-bottom:1px solid var(--rule);}
+.stop-time{flex-shrink:0;text-align:right;width:2.2rem;}
+.stop-time-val{font-size:0.75rem;font-weight:500;color:var(--ink);}
+.stop-time-dur{font-size:0.6rem;color:var(--ink-subtle);}
+.stop-body{flex:1;}
+.stop-type{font-size:0.58rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--ink-subtle);margin-bottom:0.15rem;}
+.stop-name{font-size:0.8rem;font-weight:500;color:var(--ink);}
+.stop-work{font-size:0.65rem;color:var(--ink-subtle);font-style:italic;}
+
+/* STAT ROW */
+.stat-row{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule);margin:3rem 0;}
+.stat-item{padding:1.75rem 1.5rem;border-right:1px solid var(--rule);}
+.stat-item:last-child{border-right:none;}
+.stat-num{font-family:var(--ff-e);font-size:2.2rem;font-weight:300;line-height:1;color:var(--ink);margin-bottom:0.35rem;}
+.stat-desc{font-size:0.78rem;color:var(--ink-subtle);line-height:1.5;font-weight:300;}
+
+/* OPERATIONAL STEPS */
+.op-steps{border:1px solid var(--rule);margin-top:2rem;}
+.op-step{display:grid;grid-template-columns:3rem 1fr;border-bottom:1px solid var(--rule);}
+.op-step:last-child{border-bottom:none;}
+.op-num{font-family:var(--ff-e);font-size:1.1rem;font-weight:300;color:var(--pompeiano);padding:1.25rem 0 1.25rem 1.25rem;display:flex;align-items:flex-start;border-right:1px solid var(--rule);}
+.op-body{padding:1.25rem 1.5rem;}
+.op-body h4{font-family:var(--ff-e);font-size:1rem;font-weight:400;color:var(--ink);margin-bottom:0.25rem;}
+.op-body p{font-size:0.82rem;color:var(--ink-muted);line-height:1.7;font-weight:300;}
+
+/* CTA */
+.cta-final{border-top:1px solid var(--rule);padding:5rem 2.5rem;max-width:800px;margin:0 auto;}
+.cta-final h2{font-family:var(--ff-e);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ink);line-height:1.15;margin-bottom:1rem;}
+.cta-final h2 em{font-style:italic;color:var(--pompeiano);}
+.cta-final p{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:480px;line-height:1.8;margin-bottom:2rem;}
+.btn-primary{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.75rem 1.75rem;cursor:pointer;text-decoration:none;display:inline-block;}
+
+footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+.footer-logo{font-family:var(--ff-e);font-size:1.1rem;color:var(--ink-subtle);}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{font-size:0.72rem;color:var(--ink-subtle);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;}
+
+@media(max-width:700px){
+  nav{padding:0 1.25rem;}
+  .page-head,.section,.section-narrow,.cta-final{padding-left:1.25rem;padding-right:1.25rem;}
+  .contrast{grid-template-columns:1fr;}
+  .contrast-col.ai-col{border-right:none;border-bottom:1px solid #333;}
+  .step{grid-template-columns:1fr;gap:2rem;}
+  .step-full .step-meta{flex-direction:column;gap:0.5rem;}
+  .prof-grid{grid-template-columns:1fr;}
+  .prof-card{border-right:none;border-bottom:1px solid var(--rule);}
+  .prof-card:last-child{border-bottom:none;}
+  .stat-row{grid-template-columns:1fr;}
+  .stat-item{border-right:none;border-bottom:1px solid var(--rule);}
+  .stat-item:last-child{border-bottom:none;}
+  .city-grid{grid-template-columns:repeat(2,1fr);}
+  .resto-split{grid-template-columns:1fr;}
+  .op-step{grid-template-columns:2.5rem 1fr;}
+  .op-num{padding-left:0.75rem;}
+  .op-body{padding:1rem 1rem;}
+}
+</style><body>
+
+<nav>
+  <a class="logo" href="https://itinerary-engine.vercel.app/wizard">Fl&#226;neur</a>
+  <a class="nav-btn" href="https://itinerary-engine.vercel.app/wizard">Pianifica il viaggio</a>
+</nav>
+
+<!-- HERO -->
+<div class="page-head">
+  <p class="eyebrow">Come funziona</p>
+  <h1 class="page-title">L'arte è sempre stata lì.<br><em>Bastava saperlo.</em></h1>
+  <p class="lead">Un'AI ti da un itinerario basato su cio' di cui hanno scritto milioni di persone. Fl&#226;neur ti da una mappa di tutto cio' che esiste davvero nella città, e ti lascia decidere cosa conta per te.</p>
+  <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="Una mappa giornaliera Fl&#226;neur di Firenze, con un percorso tra Museo Horne, Cappella Brancacci, Ognissanti, Orsanmichele e Santa Maria Novella, e una scheda sul Crocifisso di Ognissanti di Giotto">
+</div>
+
+<hr class="rule">
+
+<!-- CONTRAST -->
+<div class="section">
+  <div class="contrast">
+    <div class="contrast-col ai-col">
+      <p class="contrast-label">Come funziona una AI generica</p>
+      <h2 class="contrast-heading">Decide per te, in base a cio' che è statisticamente popolare.</h2>
+      <p class="contrast-body">Un modello linguistico genera un itinerario prevedendo cio' che la maggior parte delle persone vorrebbe vedere, pesato in base a quanto spesso le cose compaiono online. I capolavori dominano. Le opere di nicchia spariscono. Gli Uffizi vengono sempre suggeriti. La Cappella Brancacci viene ricordata a volte. Il Museo Horne non viene mai menzionato.</p>
+      <ul class="contrast-items">
+        <li>Luoghi scelti per frequenza statistica, non per giudizio curatoriale</li>
+        <li>Nessun orario verificato, nessuna vera logica di pianificazione</li>
+        <li>Opere scelte dai pregiudizi del modello, non dai tuoi interessi</li>
+        <li>Non sa dirti cosa una città custodisce davvero</li>
+        <li>Alto rischio di allucinazioni: orari inventati, opere attribuite male, musei che non esistono piu</li>
+      </ul>
+    </div>
+    <div class="contrast-col flaneur-col">
+      <p class="contrast-label">Come funziona Fl&#226;neur</p>
+      <h2 class="contrast-heading">Ti mostra tutto. <em>Scegli tu cosa vedere.</em></h2>
+      <p class="contrast-body">Fl&#226;neur parte da un database strutturato di oltre 25.000 opere geolocalizzate nelle città che copriamo. Ogni museo, ogni chiesa, ogni collezione, catalogati per periodo, disciplina e priorità curatoriale. Sfogli l'inventario reale. Fissi le opere che ti stanno a cuore. Il motore costruisce intorno alle tue scelte.</p>
+      <ul class="contrast-items">
+        <li>Ogni opera disponibile mostrata, non solo quelle famose</li>
+        <li>Orari verificati, chiusure settimanali, vincoli di pianificazione</li>
+        <li>Controlli tu cosa entra nella tua giornata, scoperte di nicchia comprese</li>
+        <li>Un motore ottimizza la sequenza intorno alle tue selezioni</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- PROFILES -->
+<div class="section-narrow">
+  <div class="section-head">
+    <p class="section-eyebrow">Quale profilo è il tuo</p>
+    <h2 class="section-title">Quanto vuoi <em>andare a fondo?</em></h2>
+    <p class="section-body" style="margin-top:0.75rem;">Scegli il tuo profilo all'inizio di ogni itinerario. Determina non solo cosa vedi, ma come ti vengono poste le domande e con quale precisione il piano viene cucito su di te.</p>
+  </div>
+  <div class="prof-grid">
+    <div class="prof-card">
+      <h3>Curioso</h3>
+      <p class="pt">Per chi vuole i capolavori senza una laurea in storia dell'arte</p>
+      <p>Tre domande: città, durata, data di partenza. Il motore fa il resto, senza richiederti alcuna selezione di opere. Le giornate sono ritmate per lasciare spazio a una passeggiata, un pranzo lungo o semplicemente sedersi in una piazza.</p>
+    </div>
+    <div class="prof-card">
+      <h3>Appassionato</h3>
+      <p class="pt">Per chi conosce i grandi maestri e vuole spingersi oltre</p>
+      <p>Sfogli gli artisti attivi nella città scelta e fissi quelli che contano. Il motore raggruppa le tue selezioni in una sequenza logica e cronometrata, bilanciando profondità e tempo per respirare.</p>
+    </div>
+    <div class="prof-card">
+      <h3>Esperto</h3>
+      <p class="pt">Per chi ha una formazione e uno sguardo curatoriale</p>
+      <p>Filtri per disciplina e periodo, sfogli l'intero catalogo e fissi singole opere. Ogni selezione plasma la giornata con precisione chirurgica, riducendo al minimo i tempi morti tra una tappa e l'altra.</p>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- STEPS WITH MOCKUPS -->
+<div class="section">
+  <div class="section-head">
+    <p class="section-eyebrow">Il processo</p>
+    <h2 class="section-title">Dal browser <em>al marciapiede.</em></h2>
+  </div>
+
+  <div class="steps">
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Scegli la città<br>e il <em>tuo profilo.</em></h3>
+        <p class="step-desc">Scegli dove vai e dicci quanti giorni hai. Controlliamo orari di apertura, chiusure settimanali ed eccezioni stagionali per le tue date esatte di viaggio. Poi scegli la profondità: <strong>Curioso</strong> mette Fl&#226;neur al comando di tutto. <strong>Appassionato</strong> ti lascia scegliere artisti e temi. <strong>Esperto</strong> ti da pieno controllo curatoriale su ogni opera del catalogo.</p>
+      </div>
+      <div class="step-visual">
+        <img class="shot" src="/assets/Cities.png" alt="La schermata Scegli il tuo itinerario, con le città raggruppate per paese e un profilo da scegliere">
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Sfoglia le opere.<br><em>Fissa cio' che conta.</em></h3>
+        <p class="step-desc">Ogni museo e collezione della città si apre. Vedi le opere reali, dipinti, sculture, affreschi, con autore, periodo e priorità curatoriale. Compreso quel particolare affresco di Ambrogio Lorenzetti che nessuna guida generalista e nessuna AI ti segnaleranno mai. Filtra per disciplina o epoca. Fissa quelle che vuoi essere sicuro di vedere. Il motore garantisce loro un posto nella tua giornata.</p>
+        <p class="step-desc" style="margin-top:0.75rem;"><strong>Questa è l'inversione.</strong> Invece di ricevere cio' che un modello ha deciso tu debba volere, scorri cio' che la città custodisce davvero e segni la tua lista.</p>
+      </div>
+      <div class="step-visual">
+        <img class="shot" src="/assets/interests.png" alt="La schermata Interessi, con le opere filtrate per disciplina e periodo e Capodimonte espanso a mostrare i dipinti da fissare">
+        <img class="shot" src="/assets/included.png" alt="Altri musei e collezioni di Napoli, ciascuno con il numero di opere disponibili da sfogliare">
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Indica i tuoi vincoli.<br><em>Al resto pensiamo noi.</em></h3>
+        <p class="step-desc">Bambini al seguito, mobilità ridotta, odio per le code, passione per un periodo preciso. Diccelo una volta: il motore tiene conto di tutto. Le gite a Pompei o Ercolano si inseriscono senza scompaginare le giornate in città. La classica chiusura del lunedi viene esclusa in silenzio prima ancora che tu arrivi alla porta.</p>
+        <p class="step-desc" style="margin-top:0.75rem;">Fl&#226;neur prende le tue opere fissate, le tue ore disponibili e le finestre di apertura verificate di ogni luogo, poi costruisce un piano fattibile e cronometrato. Ancora i musei piu pesanti al mattino. Raggruppa i luoghi per quartiere. Il risultato è un programma <strong>davvero possibile</strong> da eseguire.</p>
+      </div>
+      <div class="step-visual">
+        <img class="shot" src="/assets/itinerary.png" alt="Una giornata generata a Napoli, il Centro Storico, con colazione, una chiesa e orari verificati disposti ora per ora">
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Rivedi, aggiusta,<br><em>scarica.</em></h3>
+        <p class="step-desc">Prima della generazione finale puoi escludere i luoghi che hai già visitato, aggiungere gite fuori porta e confermare le preferenze gastronomiche. Un luogo non ti convince a itinerario generato? Sostituiscilo con un tocco. Il piano si ricostruisce intorno ai nuovi vincoli.</p>
+        <p class="step-desc" style="margin-top:0.75rem;">Quando sei soddisfatto, salvalo. Ottieni un PDF completo con ogni tappa, ogni opera elencata per museo, QR code per Google Maps e i siti dei luoghi, e suggerimenti gastronomici cronometrati sulla tua posizione nella giornata. Dove l ingresso richiede prenotazione, la scheda del luogo porta il link diretto, accanto alle opzioni salta fila e visita guidata.</p>
+      </div>
+      <div class="step-visual">
+        <img class="shot" src="/assets/exclusions.png" alt="La schermata Esclusioni, dove i musei che hai già visitato vengono deselezionati e rimossi dall itinerario">
+        <img class="shot" src="/assets/museums_naples.png" alt="L'elenco dei luoghi da visitare a Napoli, da Spaccanapoli al Castel dell'Ovo, ciascuno segnato come da non perdere">
+      </div>
+    </div>
+
+    <!-- STEP 5: RESTAURANTS -->
+    <div class="step step-full">
+      <div class="step-meta">
+        <div class="step-num">05</div>
+        <h3 class="step-title">Ristoranti scelti<br>con la <em>stessa serietà.</em></h3>
+      </div>
+      <div class="step-body-full">
+        <p class="step-desc">Ogni itinerario include suggerimenti per colazione, pranzo e cena, cronometrati e posizionati intorno alle tappe d arte della giornata. Le raccomandazioni vengono da due fonti distinte, e siamo trasparenti su quale è quale.</p>
+        <div class="resto-split">
+          <div class="resto-col">
+            <div class="resto-label">Recensiti sul blog</div>
+            <p class="step-desc">Visitati e raccontati in prima persona da <a href="https://www.theintrovertraveler.com" target="_blank" rel="noopener noreferrer">TheIntroverTraveler</a>. Sono rari: includiamo un posto solo dopo averci mangiato noi stessi, pagato il conto e averlo trovato degno della raccomandazione. Nessun contenuto sponsorizzato, nessuna classifica da aggregatore, nessun algoritmo. Una selezione personale che cresce lentamente e non cambia per inseguire le mode.</p>
+          </div>
+          <div class="resto-col">
+            <div class="resto-label">Curati editorialmente</div>
+            <p class="step-desc">Una selezione piu ampia, scelta dopo ricerca incrociata e contributo locale, con una rigida politica anti trappola per turisti. Non verificati di persona, ma tenuti allo stesso standard: un posto che un locale ben informato consiglierebbe davvero a un amico in visita per una settimana. L itinerario etichetta ogni ristorante con chiarezza, cosi sai sempre quale categoria stai guardando.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /steps -->
+</div>
+
+<hr class="rule">
+
+<!-- STAT ROW -->
+<div class="section-narrow">
+  <div class="stat-row">
+    <div class="stat-item">
+      <div class="stat-num">25.000+</div>
+      <div class="stat-desc">opere geolocalizzate catalogate nelle città che copriamo, classificate per periodo, disciplina e priorità curatoriale</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">15</div>
+      <div class="stat-desc">città coperte, ciascuna costruita con lo stesso rigore editoriale della prima, orari di apertura verificati inclusi</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">~200</div>
+      <div class="stat-desc">opere classificate come imperdibili, i capolavori assoluti intorno a cui ogni città è organizzata, sempre prioritarie</div>
+    </div>
+  </div>
+  <p style="font-size:0.85rem;color:var(--ink-muted);line-height:1.8;">Il database dietro Fl&#226;neur è <a href="https://artatlas.it" target="_blank" rel="noopener noreferrer" style="color:var(--ink);text-decoration:underline;text-underline-offset:3px;">ArtAtlas</a>, costruito da zero in cinque anni di ricerca editoriale e, dove possibile, visite in prima persona. Quando non sappiamo un fatto, lo dichiariamo. Un tipo diverso di intelligenza rispetto a un modello addestrato sui post dei forum.</p>
+</div>
+
+<hr class="rule">
+
+<!-- CTA -->
+<div class="cta-final">
+  <h2>Adesso sai<br>cosa aspettarti. <em>Inizia.</em></h2>
+  <p>Cinque minuti con Fl&#226;neur, da &#8364;5. Al resto pensiamo noi.</p>
+  <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">Inizia a pianificare</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Fl&#226;neur</span>
+  <ul class="footer-links">
+    <li><a href="about-it.html">Chi siamo</a></li>
+    <li><a href="faq-it.html">FAQ</a></li>
+    <li><a href="istruzioni-it.html">Come funziona</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

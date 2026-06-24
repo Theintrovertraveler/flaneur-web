@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ · Flâneur</title>
+<meta name="description" content="Flâneurについてのよくある質問：仕組み、料金、対象都市、データの出所、そしてなぜChatGPTとは違うのか。">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://flaneur.travel/ja/faq-ja.html">
+<link rel="alternate" hreflang="en" href="https://flaneur.travel/faq.html">
+<link rel="alternate" hreflang="it" href="https://flaneur.travel/it/faq-it.html">
+<link rel="alternate" hreflang="fr" href="https://flaneur.travel/fr/faq-fr.html">
+<link rel="alternate" hreflang="de" href="https://flaneur.travel/de/faq-de.html">
+<link rel="alternate" hreflang="es" href="https://flaneur.travel/es/faq-es.html">
+<link rel="alternate" hreflang="pt" href="https://flaneur.travel/pt/faq-pt.html">
+<link rel="alternate" hreflang="nl" href="https://flaneur.travel/nl/faq-nl.html">
+<link rel="alternate" hreflang="zh" href="https://flaneur.travel/zh/faq-zh.html">
+<link rel="alternate" hreflang="ja" href="https://flaneur.travel/ja/faq-ja.html">
+<link rel="alternate" hreflang="ru" href="https://flaneur.travel/ru/faq-ru.html">
+<link rel="alternate" hreflang="ko" href="https://flaneur.travel/ko/faq-ko.html">
+<link rel="alternate" hreflang="hi" href="https://flaneur.travel/hi/faq-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://flaneur.travel/faq.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaneur.travel/ja/faq-ja.html">
+<meta property="og:title" content="FAQ · Flâneur">
+<meta property="og:description" content="Flâneurについてのよくある質問：仕組み、料金、対象都市、データの出所、そしてなぜChatGPTとは違うのか。">
+<meta property="og:image" content="https://flaneur.travel/assets/hero-flaneur.webp">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --paper:#ffffff;--paper-warm:#f7f4ef;--ink:#1a1714;--ink-muted:#5c5751;--ink-subtle:#9c9690;--pompeiano:#8b2a1a;--rule:#d8d2c8;
+  --ff-e:'Cormorant Garamond',Georgia,serif;--ff-s:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.page-head{padding:5rem 2.5rem 1rem;max-width:800px;margin:0 auto;}
+.section{padding:1rem 2.5rem 2.5rem;max-width:800px;margin:0 auto;}
+.eyebrow{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:1rem;}
+.page-title{font-family:var(--ff-e);font-size:clamp(2.4rem,5vw,3.6rem);font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:1.5rem;}
+.page-title em{font-style:italic;color:var(--pompeiano);}
+.lead{font-size:1rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.85;}
+.faq-group{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin:2.5rem 0 0.25rem;padding-top:1rem;border-top:1px solid var(--rule);}
+.faq-group:first-of-type{border-top:none;padding-top:0;margin-top:0.5rem;}
+.faq-item{border-bottom:1px solid var(--rule);padding:1.6rem 0;}
+.faq-q{font-family:var(--ff-e);font-size:1.3rem;font-weight:400;color:var(--ink);margin-bottom:0.6rem;line-height:1.25;}
+.faq-a{font-size:0.9rem;color:var(--ink-muted);line-height:1.8;font-weight:300;max-width:640px;}
+.faq-a strong{font-weight:500;color:var(--ink);}
+.faq-a a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;}
+.faq-a + .faq-a{margin-top:0.75rem;}
+.btn-primary{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.75rem 1.75rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.cta-final{border-top:1px solid var(--rule);padding:5rem 2.5rem;max-width:800px;margin:0 auto;}
+.cta-final h2{font-family:var(--ff-e);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ink);line-height:1.15;margin-bottom:1rem;}
+.cta-final h2 em{font-style:italic;color:var(--pompeiano);}
+.cta-final p{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:480px;line-height:1.8;margin-bottom:2rem;}
+footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+.footer-logo{font-family:var(--ff-e);font-size:1.1rem;color:var(--ink-subtle);}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{font-size:0.72rem;color:var(--ink-subtle);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;}
+@media(max-width:600px){
+  nav{padding:0 1.25rem;}
+  .page-head,.section,.cta-final{padding-left:1.25rem;padding-right:1.25rem;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="https://itinerary-engine.vercel.app/wizard">Flâneur</a>
+  <a class="nav-btn" href="https://itinerary-engine.vercel.app/wizard">旅を計画する</a>
+</nav>
+
+<div class="page-head">
+  <!-- DEEPL: "よくある質問" -->
+  <p class="eyebrow">よくある質問</p>
+  <!-- DEEPL: "知りたいことはすべて、回り道なしに。" -->
+  <h1 class="page-title">知りたいことのすべて、<br><em>遠回りなしで。</em></h1>
+  <!-- DEEPL: lead paragraph -->
+  <p class="lead">仕組み、費用、データの出所、そして一般的なアシスタントに尋ねるのと何が違うのか。</p>
+</div>
+
+<div class="section">
+
+  <!-- DEEPL: "基本事項" -->
+  <p class="faq-group">基本事項</p>
+
+  <div class="faq-item">
+    <!-- DEEPL: "Flâneurとは、一言で言えば何でしょうか？" -->
+    <h2 class="faq-q">Flâneurとは何ですか？一行で。</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">アート愛好家のために特別に設計された、文化都市を巡るオーダーメイドのアート巡りプラン生成ツールです。都市、日程、プロフィールを選択するだけで、日単位・時間単位の詳細なプランをご提案します。プランには、確認済みの開館時間、徒歩での移動距離に加え、アートと同じくらい美食を愛する方々のために厳選されたグルメ情報も盛り込まれています。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "ChatGPTとはどう違うのですか？" -->
+    <h2 class="faq-q">ChatGPTとどう違いますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">すべての場所、営業時間、予約要件は、当社の体系化されたデータベースと照合して確認されています。分からないことがあれば、その旨を明言します。一般的なアシスタントは、分からないことがあると、それをでっち上げ、しかも流暢にやってのけます。Flâneurは、統計モデルが聞いたこともない作品を検索結果に含めたり、自信満々に間違った美術館に割り当てたりします。そして、このプロセスは受動的ではなく能動的です。モデルが代わりに決定した内容を受け入れるのではなく、その都市が所蔵するすべての芸術作品のメニューから、自分が見たいものを選ぶのです。Flâneurは幻覚を起こすことができず、あなた自身の好みやニーズに合わせて旅程を組み立てるのはあなた自身です。統計的な基準で動くAIが決して提案しないニッチな作品も含めて。AIとFlâneurの選択は、エコノミーとビジネスクラスの選択のようなものです。どちらも目的地に着きますが、質の違いがあります。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "ダウンロードが必要なアプリなんですか？" -->
+    <h2 class="faq-q">ダウンロードが必要なアプリですか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">いいえ。Flâneurはウェブアプリです。スマートフォンやデスクトップのブラウザから直接利用できます。他のアプリと同じようにホーム画面に追加することもできますが、アプリストアを経由する必要はありません。</p>
+  </div>
+
+  <!-- DEEPL: "価格とプロフィール" -->
+  <p class="faq-group">料金とプロフィール</p>
+
+  <div class="faq-item">
+    <!-- DEEPL: "費用はいくらですか？" -->
+    <h2 class="faq-q">料金はいくらですか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">料金は旅程ごとに発生します。料金は、選択した都市の芸術作品の密度に応じて変動し、5ユーロからとなります。1回の支払いで、日数に関係なく旅程全体がカバーされます。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "3つのプロファイルでは、どのような違いがあるのでしょうか？" -->
+    <h2 class="faq-q">3つのプロフィールの違いは？</h2>
+    <!-- DEEPL: three faq-a paragraphs -->
+    <p class="faq-a"><strong>好奇心旺盛 (気になる)</strong>: 3つの質問に答えるだけで完了です。美術史の学位がなくても、必見の名作を鑑賞できます。なぜなら、Flâneurがすべてを選んでくれるからです。</p>
+    <p class="faq-a"><strong>愛好家 (愛好家)</strong>: その街で活動しているアーティストを閲覧し、気になるアーティストをピン留めすると、エンジンがそれらを論理的で時間軸に沿った順序に整理し、限られた時間の中でアートを最大限に楽しめるよう、より密度の高いスケジュールを組んでくれます。あるいは、すべてをFlâneurに任せれば、気になるモードよりもさらに充実した1日が提案されます。</p>
+    <p class="faq-a"><strong>専門家 (Expert)</strong>: 分野や時代で絞り込み、カタログ全体を閲覧し、個々の作品をピン留めすることができ、その日のプログラムをキュレーターとして完全にコントロールできます。</p>
+  </div>
+
+  <!-- DEEPL: "データと信頼性" -->
+  <p class="faq-group">データと信頼性</p>
+
+  <div class="faq-item">
+    <!-- DEEPL: "データはどこから得られているのですか？" -->
+    <h2 class="faq-q">データはどこから来ますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">差出人： <a href="https://artatlas.it" target="_blank" rel="noopener noreferrer">ArtAtlas</a>, 当サイトが対象とする各都市に点在する、地理的位置情報が記録された25,000点以上の作品を、時代、分野、キュレーション上の優先順位ごとに分類した体系的なデータベースです。旅行フォーラムから情報を収集したものではなく、一から構築されたものです。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "もし、私が訪れる日に博物館が休館だったらどうなりますか？" -->
+    <h2 class="faq-q">行く日に美術館が閉まっていたら？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">これは偶然に起こるものではありません。お客様の具体的な旅行日程に合わせて、営業時間、毎週の休業日、季節による例外などを確認しています。よくある「月曜定休」といったケースも、お客様が現地で気づくことなく、さりげなく除外されています。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "レストランはどのように選んでいるのですか？" -->
+    <h2 class="faq-q">レストランはどのように選びますか？</h2>
+    <!-- DEEPL: two faq-a paragraphs -->
+    <p class="faq-a"><strong>ブログレビュー済み</strong>: 実際に訪問し、その体験を記事にまとめたのは <a href="https://www.theintrovertraveler.com" target="_blank" rel="noopener noreferrer">TheIntroverTraveler</a>. 希少で、厳選され、信頼できる。</p>
+    <p class="faq-a"><strong>編集的にキュレーション済み</strong>: 相互参照による調査と現地の意見を踏まえて厳選された、より幅広い選択肢です。観光客向けの罠となるような場所は一切排除するという方針を厳守しています。個人的に確認したわけではありませんが、同様に真剣な姿勢で選定しています。</p>
+  </div>
+
+  <!-- DEEPL: "実際には" -->
+  <p class="faq-group">実際には</p>
+
+  <div class="faq-item">
+    <!-- DEEPL: "旅程表はどの言語で書かれていますか？" -->
+    <h2 class="faq-q">旅程はどの言語で提供されますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">英語。当サービスの利用者は実質的にバイリンガルであるため、生成される旅程表は英語で作成されます。当サイトは複数の言語で閲覧可能ですが、お客様にお渡しする最終的な書類は常に英語となります。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "チケットを予約できますか？" -->
+    <h2 class="faq-q">チケットを予約できますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">はい。入場に予約が必要な場合、旅程には購入用の直接リンクに加え、優先入場やガイド付きツアーのオプションも含まれます。このリンクは、旅程が生成されると、各施設の詳細ページに表示されます。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "プランが生成される前に、内容を変更することはできますか？" -->
+    <h2 class="faq-q">生成前にプランを調整できますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">はい。最終的な旅程が決まる前に、すでに訪れた場所を除外したり、日帰り旅行を追加したり、食事の好みを指定したりすることができます。旅程の作成にあたっては、お子様連れや身体の不自由な方といった制約も含め、あらゆる要素が考慮されます。</p>
+  </div>
+
+  <div class="faq-item">
+    <!-- DEEPL: "ここには載っていない都市を探しています。追加していただけますか？" -->
+    <h2 class="faq-q">対象外の都市を探しています。追加されますか？</h2>
+    <!-- DEEPL: faq-a paragraph -->
+    <p class="faq-a">そうかもしれませんが、急ぐつもりはありません。都市の追加はゆっくりと進めています。なぜなら、どの都市についても、最初の都市と同じレベルの編集上の厳格さが求められるからです。すべての都市を中途半端に扱うよりは、少数の都市をしっかりと取り上げることを優先したいと考えています。</p>
+  </div>
+
+</div>
+
+<div class="cta-final">
+  <!-- DEEPL: "仕組みはわかっているでしょう。試してみてください。" -->
+  <h2>仕組みが分かった。<br><em>試してみよう。</em></h2>
+  <!-- DEEPL: cta paragraph -->
+  <p>5分、いくつかの質問、たった1日。5ユーロから。</p>
+  <!-- DEEPL: "計画を立て始めましょう" -->
+  <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">計画を始める</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Flâneur</span>
+  <ul class="footer-links">
+    <li><a href="about-ja.html">私たちについて</a></li>
+    <li><a href="faq-ja.html">FAQ</a></li>
+    <li><a href="instructions-ja.html">仕組み</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

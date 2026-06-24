@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flâneur · Viaggi d'arte, davvero curati</title>
+<meta name="description" content="Itinerari d'arte personalizzati per città culturali, da un database in crescita di oltre 25.000 opere geolocalizzate, con orari verificati e una conoscenza editoriale di prima mano.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://flaneur.travel/it/index-it.html">
+<link rel="alternate" hreflang="en" href="https://flaneur.travel/">
+<link rel="alternate" hreflang="it" href="https://flaneur.travel/it/index-it.html">
+<link rel="alternate" hreflang="fr" href="https://flaneur.travel/fr/index-fr.html">
+<link rel="alternate" hreflang="de" href="https://flaneur.travel/de/index-de.html">
+<link rel="alternate" hreflang="es" href="https://flaneur.travel/es/index-es.html">
+<link rel="alternate" hreflang="pt" href="https://flaneur.travel/pt/index-pt.html">
+<link rel="alternate" hreflang="nl" href="https://flaneur.travel/nl/index-nl.html">
+<link rel="alternate" hreflang="zh" href="https://flaneur.travel/zh/index-zh.html">
+<link rel="alternate" hreflang="ja" href="https://flaneur.travel/ja/index-ja.html">
+<link rel="alternate" hreflang="ru" href="https://flaneur.travel/ru/index-ru.html">
+<link rel="alternate" hreflang="ko" href="https://flaneur.travel/ko/index-ko.html">
+<link rel="alternate" hreflang="hi" href="https://flaneur.travel/hi/index-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://flaneur.travel/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaneur.travel/it/index-it.html">
+<meta property="og:title" content="Flâneur · Viaggi d'arte, davvero curati">
+<meta property="og:description" content="Itinerari d'arte personalizzati per città culturali, da un database in crescita di oltre 25.000 opere geolocalizzate, con orari verificati e una conoscenza editoriale di prima mano.">
+<meta property="og:image" content="https://flaneur.travel/assets/hero-flaneur.webp">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --paper:#ffffff;
+  --paper-warm:#f7f4ef;
+  --ink:#1a1714;
+  --ink-muted:#5c5751;
+  --ink-subtle:#9c9690;
+  --pompeiano:#8b2a1a;
+  --rule:#d8d2c8;
+  --ff-e:'Cormorant Garamond',Georgia,serif;
+  --ff-s:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+
+nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
+
+.section{padding:4rem 2.5rem;max-width:800px;margin:0 auto;}
+.eyebrow{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:1rem;}
+.sec-title{font-family:var(--ff-e);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:300;line-height:1.15;color:var(--ink);margin-bottom:1.25rem;}
+.sec-title em{font-style:italic;color:var(--pompeiano);}
+.sec-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.8;}
+hr.rule{border:none;border-top:1px solid var(--rule);}
+.btn-primary{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.75rem 1.75rem;cursor:pointer;text-decoration:none;display:inline-block;}
+
+/* HERO */
+.hero{padding:6rem 2.5rem 4rem;max-width:800px;margin:0 auto;}
+.hero h1{font-family:var(--ff-e);font-size:clamp(2.8rem,6vw,5rem);font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:1.5rem;}
+.hero h1 em{font-style:italic;color:var(--pompeiano);}
+.hero-sub{font-size:1rem;font-weight:300;color:var(--ink-muted);max-width:540px;line-height:1.85;margin-bottom:2.5rem;}
+.hero-sub strong{font-weight:400;color:var(--ink);}
+.hero-actions{margin-bottom:3rem;}
+.hero-foot{border-top:1px solid var(--rule);padding-top:2rem;display:flex;gap:3rem;flex-wrap:wrap;}
+.hero-stat strong{display:block;font-family:var(--ff-e);font-size:1.8rem;font-weight:300;color:var(--ink);line-height:1;margin-bottom:0.15rem;}
+.hero-stat span{font-size:0.78rem;color:var(--ink-subtle);font-weight:300;}
+
+/* ARTATLAS STRIP */
+.artatlas-strip{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--paper-warm);padding:2rem 2.5rem;text-align:center;}
+.artatlas-strip p{font-size:0.875rem;font-weight:300;color:var(--ink-muted);line-height:1.75;max-width:600px;margin:0 auto;}
+.artatlas-strip p strong{font-weight:500;color:var(--ink);}
+.artatlas-strip p em{font-style:italic;}
+
+/* WHY GRID */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);margin-top:2.5rem;}
+.why-card{padding:1.75rem 1.5rem;background:var(--paper);}
+.why-card:nth-child(1),.why-card:nth-child(2){border-bottom:1px solid var(--rule);}
+.why-card:nth-child(odd){border-right:1px solid var(--rule);}
+.why-n{font-family:var(--ff-e);font-size:1.6rem;font-weight:300;color:var(--pompeiano);line-height:1;margin-bottom:0.75rem;}
+.why-card h3{font-family:var(--ff-e);font-size:1.15rem;font-weight:400;color:var(--ink);margin-bottom:0.5rem;}
+.why-card p{font-size:0.875rem;color:var(--ink-muted);line-height:1.75;font-weight:300;}
+
+/* PROFILES */
+.profiles-wrap{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--paper-warm);}
+.profile-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule);margin-top:2.5rem;}
+.profile-card{padding:1.75rem 1.5rem;background:var(--paper);border-right:1px solid var(--rule);position:relative;}
+.profile-card:last-child{border-right:none;}
+.profile-card.feat{border-top:2px solid var(--pompeiano);}
+.feat-badge{position:absolute;top:-1px;left:1.5rem;font-size:0.6rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;background:var(--pompeiano);color:var(--paper);padding:0.2rem 0.6rem;}
+.p-name{font-family:var(--ff-e);font-size:1.5rem;font-weight:400;color:var(--ink);margin-bottom:0.2rem;}
+.p-tag{font-size:0.78rem;color:var(--ink-subtle);font-style:italic;margin-bottom:1rem;}
+.p-desc{font-size:0.85rem;color:var(--ink-muted);line-height:1.75;font-weight:300;margin-bottom:1.25rem;}
+.p-method{border-top:1px solid var(--rule);padding-top:1rem;margin-bottom:1.25rem;}
+.p-method-label{font-size:0.65rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--ink-subtle);margin-bottom:0.4rem;}
+.p-method p{font-size:0.8rem;color:var(--ink-muted);line-height:1.65;font-weight:300;}
+.p-price{border-top:1px solid var(--rule);padding-top:1rem;}
+.p-price strong{font-family:var(--ff-e);font-size:2rem;font-weight:300;color:var(--ink);line-height:1;}
+.p-price span{font-size:0.78rem;color:var(--ink-subtle);margin-left:0.2rem;}
+
+/* FOOD */
+.food-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);margin-top:2.5rem;}
+.food-card{padding:1.75rem 1.5rem;background:var(--paper);}
+.food-card:first-child{border-right:1px solid var(--rule);}
+.f-tag{display:inline-block;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;padding:0.2rem 0.6rem;margin-bottom:0.75rem;}
+.f-tag.rev{background:var(--pompeiano);color:var(--paper);}
+.f-tag.cur{border:1px solid var(--rule);color:var(--ink-muted);}
+.food-card h3{font-family:var(--ff-e);font-size:1.2rem;font-weight:400;color:var(--ink);margin-bottom:0.5rem;}
+.food-card p{font-size:0.875rem;color:var(--ink-muted);line-height:1.75;font-weight:300;}
+
+/* CITIES */
+.cities-strip{display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:2rem;}
+.cpill{font-size:0.78rem;font-weight:300;color:var(--ink-muted);border:1px solid var(--rule);padding:0.35rem 0.9rem;background:var(--paper);}
+.cpill.on{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:400;}
+
+/* STEPS */
+.steps{border:1px solid var(--rule);margin-top:2.5rem;}
+.step{display:grid;grid-template-columns:3.5rem 1fr;border-bottom:1px solid var(--rule);}
+.step:last-child{border-bottom:none;}
+.s-num{font-family:var(--ff-e);font-size:1.3rem;font-weight:300;color:var(--pompeiano);padding:1.5rem 0 1.5rem 1.5rem;display:flex;align-items:flex-start;border-right:1px solid var(--rule);}
+.s-body{padding:1.5rem 1.75rem;}
+.s-body h3{font-family:var(--ff-e);font-size:1.1rem;font-weight:400;color:var(--ink);margin-bottom:0.35rem;}
+.s-body p{font-size:0.875rem;color:var(--ink-muted);line-height:1.75;font-weight:300;}
+
+/* CTA */
+.cta-final{border-top:1px solid var(--rule);padding:5rem 2.5rem;max-width:800px;margin:0 auto;}
+.cta-final h2{font-family:var(--ff-e);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ink);line-height:1.15;margin-bottom:1rem;}
+.cta-final h2 em{font-style:italic;color:var(--pompeiano);}
+.cta-final p{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:480px;line-height:1.8;margin-bottom:2rem;}
+
+footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+.footer-logo{font-family:var(--ff-e);font-size:1.1rem;color:var(--ink-subtle);}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{font-size:0.72rem;color:var(--ink-subtle);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;}
+
+@media(max-width:600px){
+  .why-grid,.profile-grid,.food-grid{grid-template-columns:1fr;}
+  .why-card:nth-child(odd){border-right:none;}
+  .why-card{border-bottom:1px solid var(--rule)!important;}
+  .profile-card{border-right:none;border-bottom:1px solid var(--rule);}
+  .food-card:first-child{border-right:none;border-bottom:1px solid var(--rule);}
+}
+
+.hero-map {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+  border-bottom: 1px solid var(--rule);
+}
+.insight-section {
+  padding: 4rem 2.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.insight-text {}
+.insight-quote {
+  font-family: var(--ff-e);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 1.25rem;
+}
+.insight-quote em { font-style: italic; color: var(--pompeiano); }
+.insight-body {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--ink-muted);
+  line-height: 1.85;
+}
+.insight-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 0.5rem;
+}
+.istat {
+  border-left: 2px solid var(--pompeiano);
+  padding-left: 1.25rem;
+}
+.istat strong {
+  display: block;
+  font-family: var(--ff-e);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--ink);
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+.istat span {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-weight: 300;
+  line-height: 1.5;
+}
+.istat a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+@media(max-width: 600px) {
+  .insight-section { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="https://itinerary-engine.vercel.app/wizard">Flâneur</a>
+  <a class="nav-btn" href="https://itinerary-engine.vercel.app/wizard">Pianifica il viaggio</a>
+</nav>
+
+<img class="hero-map" src="/assets/hero-flaneur.webp" alt="Un itinerario Flâneur a Firenze: un percorso curato che collega Uffizi, Orsanmichele, Bargello, Opificio delle Pietre Dure, Accademia e Museo di San Marco" width="1440" height="810" loading="eager"/>
+
+<div class="hero">
+  <p class="eyebrow">Viaggi d'arte, davvero curati</p>
+  <h1>Non un algoritmo.<br><em>Un conoscitore.</em></h1>
+  <p class="hero-sub">Flâneur genera itinerari d'arte personalizzati per le città culturali, a partire da un database in crescita di <strong>oltre 25.000 opere geolocalizzate</strong>, orari di apertura verificati e una conoscenza editoriale di prima mano, di chi davanti a questi quadri ci è stato davvero.</p>
+  <div class="hero-actions">
+    <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">Inizia a pianificare da €5</a>
+  </div>
+  <div class="hero-foot">
+    <div class="hero-stat"><strong>25.000</strong><span>opere geolocalizzate</span></div>
+    <div class="hero-stat"><strong>15</strong><span>città</span></div>
+    <div class="hero-stat"><strong>3</strong><span>profili culturali</span></div>
+    <div class="hero-stat"><strong>0</strong><span>luoghi inventati</span></div>
+  </div>
+</div>
+
+<div class="artatlas-strip">
+  <p>Flâneur è alimentato da <a href="https://artatlas.it" target="_blank" rel="noopener noreferrer" style="color:var(--ink);font-weight:500;text-decoration:underline;text-underline-offset:3px;">ArtAtlas</a>, un database strutturato di <strong>oltre 25.000 opere geolocalizzate nelle città che copriamo</strong>, con priorità editoriale, affiliazione museale e classificazione per periodo per ogni opera. Non raschiato dai forum di viaggio. <em>Costruito da zero.</em></p>
+</div>
+
+<hr class="rule">
+
+<div class="insight-section">
+  <div class="insight-text">
+    <p class="eyebrow">Perché Flâneur esiste</p>
+    <h2 class="insight-quote">Quante opere hai<br><em>oltrepassato senza saperlo?</em></h2>
+    <p class="insight-body">Flâneur nasce da una frustrazione personale: visitare una città e scoprire, più tardi, che un quadro che sognavi di vedere da anni era a due isolati da dove ti trovavi. Il problema non è la mancanza di informazioni. È l'assenza di un sistema che colleghi i tuoi interessi, la tua posizione in città e gli orari di apertura del luogo dove l'opera è davvero appesa. Quel sistema è ciò che Flâneur costruisce per te, prima che tu parta.</p>
+  </div>
+  <div class="insight-stats">
+    <div class="istat">
+      <strong>~200</strong>
+      <span>opere classificate come imprescindibili: i capolavori assoluti attorno a cui ogni città è costruita, individuati attraverso anni di ricerca editoriale</span>
+    </div>
+    <div class="istat">
+      <strong>+500</strong>
+      <span>ristoranti in archivio, di cui una selezione curata è stata visitata e recensita di persona da <a href="https://www.theintrovertraveler.com" target="_blank" rel="noopener noreferrer">TheIntroverTraveler</a></span>
+    </div>
+    <div class="istat">
+      <strong>5+</strong>
+      <span>anni di ricerca editoriale dietro il database: ogni priorità, ogni orario di apertura, ogni nota curatoriale scritta a mano</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="eyebrow">Perché non chiedere a ChatGPT?</p>
+  <h2 class="sec-title">Il tuo assistente AI non<br>è mai stato a <em>Firenze.</em></h2>
+  <p class="sec-body">Ha letto di Firenze. Ha fatto la media statistica di ciò che hanno scritto milioni di altri. E ti manderà con sicurezza in un ristorante chiuso nel 2019.</p>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-n">01</div>
+      <h3>Verificato, non allucinato</h3>
+      <p>Ogni luogo, orario di apertura e requisito di prenotazione in Flâneur è verificato sul nostro database strutturato. Quando non sappiamo qualcosa, lo diciamo. Quando un'AI non sa qualcosa, lo inventa. Con scioltezza.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-n">02</div>
+      <h3>Conoscenza editoriale, non media statistica</h3>
+      <p>Oltre 25.000 opere classificate per periodo, disciplina e priorità curatoriale. Schede museali incrociate con visite di persona. Un'intelligenza diversa da un modello addestrato sui post dei forum di viaggio.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-n">03</div>
+      <h3>Un vino da 5 euro e uno da 50 euro riempiono entrambi il bicchiere</h3>
+      <p>ChatGPT va benissimo per una città a cui non tieni particolarmente. Ma se hai speso migliaia di euro tra voli, hotel e ingressi per un viaggio culturale, l'itinerario non è il punto in cui la coerenza dovrebbe fermarsi. Flâneur include opere di cui ChatGPT non ha mai sentito parlare (o che colloca con sicurezza nel museo sbagliato), e ristoranti scelti con lo stesso rigore curatoriale dell'arte. Costa meno di un'audioguida da museo e copre più giorni. Se al supermercato ti accontenti della bottiglia da 5 euro, l'itinerario gratuito scritto da ChatGPT è perfetto per te. Se sei un appassionato d'arte che vuole un itinerario cucito sui propri gusti e costruito da chi se ne intende, Flâneur è la tua bottiglia da 50 euro.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-n">04</div>
+      <h3>Pianificare è un mestiere</h3>
+      <p>Un'AI ti dà una lista che devi comunque verificare passo per passo: questo museo è aperto quel giorno? Questa sequenza ha un senso geografico? Quel ristorante esiste ancora? Flâneur ti dà una giornata pronta all'uso, con ogni orario controllato, ogni distanza calcolata, ogni chiusura del lunedì esclusa in silenzio. Trovare un museo chiuso o perdere una gemma nascosta vale il risparmio di qualche decina di euro?</p>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">Attivo, non passivo</p>
+  <h2 class="sec-title">Un menu, non un <em>lancio di dadi.</em></h2>
+  <p class="sec-body">Usare un'AI è passivo: scrivi un prompt e il modello decide cosa vedi. Flâneur è attivo. Scegli le opere da un menu, come ordini al ristorante, e il motore costruisce la giornata attorno alle tue scelte. Una piccola tavola di Francesco Francia non comparirà mai in un itinerario generato da un'AI, perché statisticamente è secondaria. Con Flâneur hai davanti tutta la scelta possibile e decidi tu cosa vale il tuo tempo. Più il profilo è approfondito, più fine è il controllo: l'Esperto sfoglia l'intero catalogo, opera per opera.</p>
+</div>
+
+<hr class="rule">
+
+<div class="profiles-wrap">
+  <div class="section">
+    <p class="eyebrow">Tre profili, tre prodotti</p>
+    <h2 class="sec-title">Quanto vuoi<br><em>andare a fondo?</em></h2>
+    <p class="sec-body">Scegli il tuo profilo all'inizio di ogni itinerario. Determina non solo cosa vedi, ma come ti vengono poste le domande e con quale precisione il piano viene cucito su di te. Tre livelli di competenza nella storia dell'arte, tre intensità di pianificazione dell'itinerario.</p>
+    <div class="profile-grid">
+      <div class="profile-card">
+        <p class="p-name">Curioso</p>
+        <p class="p-tag">Per chi vuole i capolavori senza una laurea in storia dell'arte</p>
+        <p class="p-desc">Vuoi vedere le opere essenziali senza annegare nella storia dell'arte. Flâneur ordina le tue giornate in modo logico, evita le classiche trappole per turisti e ti fa entrare davvero nei luoghi per cui sei venuto. Le giornate sono ritmate per lasciare spazio a una passeggiata, un pranzo lungo o semplicemente sedersi in una piazza.</p>
+        <div class="p-method">
+          <p class="p-method-label">Come funziona</p>
+          <p>Tre domande. Scegli una città, una durata, una data di partenza. Il motore fa il resto, senza richiederti alcuna selezione di opere.</p>
+        </div>
+        <div class="p-price"><strong>€5</strong><span>per itinerario</span></div>
+      </div>
+      <div class="profile-card feat">
+        <div class="feat-badge">Il più scelto</div>
+        <p class="p-name">Appassionato</p>
+        <p class="p-tag">Per chi conosce i grandi maestri e vuole spingersi oltre</p>
+        <p class="p-desc">Distingui Raffaello da Raphael. Vuoi andare oltre le sale ovvie e costruire una giornata attorno agli artisti che ti interessano davvero. Le giornate sono strutturate per bilanciare profondità e tempo per respirare.</p>
+        <div class="p-method">
+          <p class="p-method-label">Come funziona</p>
+          <p>Sfogli gli artisti attivi nella città scelta, fissi quelli che contano. Il motore raggruppa le tue selezioni in una sequenza logica e cronometrata.</p>
+        </div>
+        <div class="p-price"><strong>€20</strong><span>per itinerario</span></div>
+      </div>
+      <div class="profile-card">
+        <p class="p-name">Esperto</p>
+        <p class="p-tag">Per chi ha una formazione e uno sguardo curatoriale</p>
+        <p class="p-desc">Hai una formazione. Vuoi vedere la pala d'altare in sagrestia, non solo la cattedrale. Controllo completo su opere, periodi e discipline, con accesso a cose di cui forse non sospettavi l'esistenza. Le giornate sono costruite per massimizzare il tempo dentro i musei, con il minimo dei tempi morti tra una tappa e l'altra.</p>
+        <div class="p-method">
+          <p class="p-method-label">Come funziona</p>
+          <p>Filtra per disciplina e periodo, sfoglia l'intero catalogo e fissa singole opere. Ogni selezione plasma la giornata con precisione chirurgica.</p>
+        </div>
+        <div class="p-price"><strong>€50</strong><span>per itinerario</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">Perché anche il pranzo conta</p>
+  <h2 class="sec-title">Un approccio gourmet<br>all'<em>intervallo.</em></h2>
+  <p class="sec-body">Flâneur non suggerisce ristoranti come un aggregatore di recensioni. Ogni luogo nel nostro database è lì per un motivo.</p>
+  <div class="food-grid">
+    <div class="food-card">
+      <span class="f-tag rev">Recensiti dal blog</span>
+      <h3>Provati di persona</h3>
+      <p>Ristoranti visitati, mangiati e raccontati da <a href="https://www.theintrovertraveler.com" target="_blank" rel="noopener noreferrer" style="color:var(--ink);text-decoration:underline;text-underline-offset:3px;">TheIntroverTraveler</a>, il blog dalla cui esperienza sono nati ArtAtlas e Flâneur. Sappiamo che sapore ha la cacio e pepe di martedì. Rari, selettivi, affidabili.</p>
+    </div>
+    <div class="food-card">
+      <span class="f-tag cur">Curati</span>
+      <h3>Curati editorialmente</h3>
+      <p>Una selezione più ampia, scelta dopo ricerca incrociata, input locale e una rigida politica anti trappola per turisti. Non verificati di persona, ma scelti con la stessa serietà.</p>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">Dove siamo</p>
+  <h2 class="sec-title">Quindici città.<br>Tutte prese <em>sul serio.</em></h2>
+  <p class="sec-body">Copriamo città dove la densità di storia dell'arte giustifica la profondità del nostro approccio, cominciando dall'Italia, dove quella densità è massima. L'espansione è lenta e deliberata: ogni nuova città richiede lo stesso rigore editoriale della prima.</p>
+  <div class="cities-strip">
+    <span class="cpill on">Firenze</span><span class="cpill on">Roma</span><span class="cpill on">Venezia</span><span class="cpill on">Napoli</span><span class="cpill on">Bologna</span><span class="cpill on">Milano</span><span class="cpill on">Siena</span><span class="cpill on">Lucca</span><span class="cpill">Parigi</span><span class="cpill">Londra</span><span class="cpill">Berlino</span><span class="cpill">Madrid</span><span class="cpill">Amsterdam</span><span class="cpill">Copenaghen</span><span class="cpill">New York</span>
+  </div>
+</div>
+
+<hr class="rule">
+
+<div class="section">
+  <p class="eyebrow">Come funziona</p>
+  <h2 class="sec-title">Qualche domanda.<br>Una giornata <em>precisa.</em></h2>
+  <div class="steps">
+    <div class="step"><div class="s-num">1</div><div class="s-body"><h3>Scegli città e date</h3><p>Scegli una delle città che copriamo e dicci quanti giorni hai. Controlliamo orari di apertura, chiusure settimanali ed eccezioni stagionali per le tue date esatte di viaggio.</p></div></div>
+    <div class="step"><div class="s-num">2</div><div class="s-body"><h3>Seleziona il profilo</h3><p>Curioso, Appassionato o Esperto. A seconda di quale scegli, il wizard pone domande diverse e pianifica la giornata con intensità differente: da un singolo tocco a una sessione curatoriale completa.</p></div></div>
+    <div class="step"><div class="s-num">3</div><div class="s-body"><h3>Indica i tuoi vincoli</h3><p>Bambini al seguito, mobilità ridotta, odio per le code, passione per un artista preciso. Teniamo conto di tutto.</p></div></div>
+    <div class="step"><div class="s-num">4</div><div class="s-body"><h3>Rivedi e aggiusta</h3><p>Prima della generazione finale, escludi i luoghi che hai già visto, aggiungi gite fuori porta e conferma le preferenze gastronomiche.</p></div></div>
+    <div class="step"><div class="s-num">5</div><div class="s-body"><h3>Ricevi l'itinerario</h3><p>Un piano giorno per giorno, ora per ora. Distanze a piedi, tempi di spostamento, finestre di apertura, suggerimenti gastronomici e link diretti per prenotare dove serve.</p></div></div>
+  </div>
+</div>
+
+<div class="cta-final">
+  <h2>Hai pianificato il viaggio.<br>Ora pianificalo <em>come si deve.</em></h2>
+  <p>Cinque minuti con Flâneur. La differenza tra un bel viaggio e uno di cui parlerai ancora tra dieci anni.</p>
+  <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">Inizia a pianificare</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Flâneur</span>
+  <ul class="footer-links">
+    <li><a href="about-it.html">Chi siamo</a></li>
+    <li><a href="faq-it.html">FAQ</a></li>
+    <li><a href="istruzioni-it.html">Come funziona</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

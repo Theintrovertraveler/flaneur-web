@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ · Flâneur</title>
+<meta name="description" content="Frequently asked questions about Flâneur: how it works, what it costs, which cities we cover, where the data comes from, and why it is not ChatGPT.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://flaneur.travel/faq.html">
+<link rel="alternate" hreflang="en" href="https://flaneur.travel/faq.html">
+<link rel="alternate" hreflang="it" href="https://flaneur.travel/it/faq-it.html">
+<link rel="alternate" hreflang="fr" href="https://flaneur.travel/fr/faq-fr.html">
+<link rel="alternate" hreflang="de" href="https://flaneur.travel/de/faq-de.html">
+<link rel="alternate" hreflang="es" href="https://flaneur.travel/es/faq-es.html">
+<link rel="alternate" hreflang="pt" href="https://flaneur.travel/pt/faq-pt.html">
+<link rel="alternate" hreflang="nl" href="https://flaneur.travel/nl/faq-nl.html">
+<link rel="alternate" hreflang="zh" href="https://flaneur.travel/zh/faq-zh.html">
+<link rel="alternate" hreflang="ja" href="https://flaneur.travel/ja/faq-ja.html">
+<link rel="alternate" hreflang="ru" href="https://flaneur.travel/ru/faq-ru.html">
+<link rel="alternate" hreflang="ko" href="https://flaneur.travel/ko/faq-ko.html">
+<link rel="alternate" hreflang="hi" href="https://flaneur.travel/hi/faq-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://flaneur.travel/faq.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaneur.travel/faq.html">
+<meta property="og:title" content="FAQ · Flâneur">
+<meta property="og:description" content="Frequently asked questions about Flâneur: how it works, what it costs, which cities we cover, where the data comes from, and why it is not ChatGPT.">
+<meta property="og:image" content="https://flaneur.travel/assets/hero-flaneur.webp">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --paper:#ffffff;--paper-warm:#f7f4ef;--ink:#1a1714;--ink-muted:#5c5751;--ink-subtle:#9c9690;--pompeiano:#8b2a1a;--rule:#d8d2c8;
+  --ff-e:'Cormorant Garamond',Georgia,serif;--ff-s:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.page-head{padding:5rem 2.5rem 1rem;max-width:800px;margin:0 auto;}
+.section{padding:1rem 2.5rem 2.5rem;max-width:800px;margin:0 auto;}
+.eyebrow{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:1rem;}
+.page-title{font-family:var(--ff-e);font-size:clamp(2.4rem,5vw,3.6rem);font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:1.5rem;}
+.page-title em{font-style:italic;color:var(--pompeiano);}
+.lead{font-size:1rem;font-weight:300;color:var(--ink-muted);max-width:560px;line-height:1.85;}
+.faq-group{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin:2.5rem 0 0.25rem;padding-top:1rem;border-top:1px solid var(--rule);}
+.faq-group:first-of-type{border-top:none;padding-top:0;margin-top:0.5rem;}
+.faq-item{border-bottom:1px solid var(--rule);padding:1.6rem 0;}
+.faq-q{font-family:var(--ff-e);font-size:1.3rem;font-weight:400;color:var(--ink);margin-bottom:0.6rem;line-height:1.25;}
+.faq-a{font-size:0.9rem;color:var(--ink-muted);line-height:1.8;font-weight:300;max-width:640px;}
+.faq-a strong{font-weight:500;color:var(--ink);}
+.faq-a a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;}
+.faq-a + .faq-a{margin-top:0.75rem;}
+.btn-primary{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.75rem 1.75rem;cursor:pointer;text-decoration:none;display:inline-block;}
+.cta-final{border-top:1px solid var(--rule);padding:5rem 2.5rem;max-width:800px;margin:0 auto;}
+.cta-final h2{font-family:var(--ff-e);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ink);line-height:1.15;margin-bottom:1rem;}
+.cta-final h2 em{font-style:italic;color:var(--pompeiano);}
+.cta-final p{font-size:0.95rem;font-weight:300;color:var(--ink-muted);max-width:480px;line-height:1.8;margin-bottom:2rem;}
+footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+.footer-logo{font-family:var(--ff-e);font-size:1.1rem;color:var(--ink-subtle);}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{font-size:0.72rem;color:var(--ink-subtle);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;}
+@media(max-width:600px){
+  nav{padding:0 1.25rem;}
+  .page-head,.section,.cta-final{padding-left:1.25rem;padding-right:1.25rem;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="https://itinerary-engine.vercel.app/wizard">Flâneur</a>
+  <a class="nav-btn" href="https://itinerary-engine.vercel.app/wizard">Plan your trip</a>
+</nav>
+
+<div class="page-head">
+  <p class="eyebrow">Frequently asked</p>
+  <h1 class="page-title">Everything you want<br>to know, <em>no detours.</em></h1>
+  <p class="lead">How it works, what it costs, where the data comes from, and why it is not the same as asking a generic assistant.</p>
+</div>
+
+<div class="section">
+
+  <p class="faq-group">The essentials</p>
+
+  <div class="faq-item">
+    <h2 class="faq-q">What is Flâneur, in one line?</h2>
+    <p class="faq-a">A generator of personalised art itineraries for cultural cities, designed specifically for art lovers. Choose a city, dates, and a profile: we give you back a day-by-day, hour-by-hour plan, with verified opening hours, walking distances, and food suggestions carefully chosen for those who love good food as much as art.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">How is it different from ChatGPT?</h2>
+    <p class="faq-a">Every place, opening hour, and booking requirement is verified against our structured database. When we do not know something, we say so. A generic assistant, when it does not know, <strong>invents</strong>, and fluently at that. Flâneur includes works a statistical model has never heard of, or confidently places in the wrong museum. And the process is active, not passive: instead of accepting what a model decides for you, you choose what you want to see from a menu of all the art the city holds. Flâneur cannot hallucinate, and you are the one composing your itinerary according to your tastes and needs, including niche works that an AI, operating on a statistical basis, will never suggest. The choice between AI and Flâneur is like choosing between Economy and Business: both get you there, but with a different quality.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">Is it an app I have to download?</h2>
+    <p class="faq-a">No. Flâneur is a web app: you use it straight from the browser, on phone or desktop. You can add it to your home screen like any app, but there is no store to go through.</p>
+  </div>
+
+  <p class="faq-group">Pricing and profiles</p>
+
+  <div class="faq-item">
+    <h2 class="faq-q">What does it cost?</h2>
+    <p class="faq-a">You pay per itinerary. The price scales with the density of art in the city you choose, starting at €5. A single payment covers the whole itinerary, however many days it spans.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">What changes between the three profiles?</h2>
+    <p class="faq-a"><strong>Curious</strong>: three questions and you are done. You see the essential masterpieces without needing a degree in art history, because Flâneur makes every choice for you.</p>
+    <p class="faq-a"><strong>Enthusiast</strong>: you browse the artists active in the city and pin the ones you care about, and the engine arranges them into a logical, timed sequence with denser planning, aimed at making the most of the art in the hours you have. Or you let Flâneur decide everything, in which case it simply builds a more intense day than the Curious one.</p>
+    <p class="faq-a"><strong>Expert</strong>: you filter by discipline and period, browse the entire catalogue, and pin individual works, with full curatorial control over the day.</p>
+  </div>
+
+  <p class="faq-group">Data and reliability</p>
+
+  <div class="faq-item">
+    <h2 class="faq-q">Where does the data come from?</h2>
+    <p class="faq-a">From <a href="https://artatlas.it" target="_blank" rel="noopener noreferrer">ArtAtlas</a>, a structured database of more than 25,000 geolocated works across the cities we cover, classified by period, discipline, and curatorial priority. Built from the ground up, not scraped from travel forums.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">What if a museum is closed on the day I go?</h2>
+    <p class="faq-a">It does not happen by accident. We check opening hours, weekly closures, and seasonal exceptions for your exact travel dates. The classic Monday closure is quietly excluded, without you finding out at the door.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">How do you choose the restaurants?</h2>
+    <p class="faq-a"><strong>Blog-reviewed</strong>: visited and written about first-hand by <a href="https://www.theintrovertraveler.com" target="_blank" rel="noopener noreferrer">TheIntroverTraveler</a>. Rare, selective, trustworthy.</p>
+    <p class="faq-a"><strong>Editorially curated</strong>: a wider selection, chosen after cross-referenced research and local input, with a strict no-tourist-trap policy. Not personally verified, but chosen with the same seriousness.</p>
+  </div>
+
+  <p class="faq-group">In practice</p>
+
+  <div class="faq-item">
+    <h2 class="faq-q">What language are the itineraries in?</h2>
+    <p class="faq-a">English. Our cultural audience is functionally bilingual, so the generated itinerary is in English. This site is available in several languages for browsing, but the final document you receive is always in English.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">Can I book tickets?</h2>
+    <p class="faq-a">Yes. Where entry requires booking, the itinerary includes the direct link to buy, alongside skip-the-line and guided-tour options. The link appears in the individual venue card, once the itinerary is generated.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">Can I adjust the plan before it is generated?</h2>
+    <p class="faq-a">Yes. Before the final generation you can exclude places you have already seen, add day trips, and confirm your food preferences. The itinerary takes everything into account, including constraints like children in tow or reduced mobility.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2 class="faq-q">I am looking for a city that is not here. Will you add it?</h2>
+    <p class="faq-a">Perhaps, but in no hurry. We add cities slowly, because each one demands the same editorial rigour as the first. We would rather cover fewer cities well than all of them badly.</p>
+  </div>
+
+</div>
+
+<div class="cta-final">
+  <h2>You understand how<br>it works. <em>Try it.</em></h2>
+  <p>Five minutes, a few questions, one precise day. From €5.</p>
+  <a class="btn-primary" href="https://itinerary-engine.vercel.app/wizard">Start planning</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Flâneur</span>
+  <ul class="footer-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="instructions.html">How it works</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
