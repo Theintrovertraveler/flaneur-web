@@ -40,6 +40,8 @@ html{scroll-behavior:smooth;}
 body{font-family:var(--ff-s);background:var(--paper);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
 nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 2.5rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
 .logo{font-family:var(--ff-e);font-size:1.4rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;}
+.logo{display:inline-block;line-height:0;}
+.logo img{height:26px;width:auto;display:block;}
 .nav-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);border:none;padding:0.45rem 1.1rem;cursor:pointer;text-decoration:none;display:inline-block;}
 .page-head{padding:5rem 2.5rem 1rem;max-width:800px;margin:0 auto;}
 .section{padding:1rem 2.5rem 2.5rem;max-width:800px;margin:0 auto;}
@@ -70,7 +72,7 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
 <body>
 
 <nav>
-  <a class="logo" href="https://app.flaneur.travel/wizard">Flâneur</a>
+  <a class="logo" href="https://app.flaneur.travel/wizard"><img src="/assets/wordmark.svg" alt="Flaneur" width="112" height="26"></a>
   <a class="nav-btn" href="https://app.flaneur.travel/wizard">여행 계획하기</a>
 </nav>
 

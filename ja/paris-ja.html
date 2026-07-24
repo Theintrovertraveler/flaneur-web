@@ -57,6 +57,8 @@
     nav { background: var(--paper); border-bottom: 1px solid var(--rule); padding: 18px 0; }
     nav .container { display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.35rem; font-weight: 500; color: var(--ink); text-decoration: none; letter-spacing: 0.01em; }
+    .nav-logo{display:inline-block;line-height:0;}
+    .nav-logo img{height:26px;width:auto;display:block;}
     .nav-links { display: flex; gap: 28px; list-style: none; }
     .nav-links a { font-size: 0.82rem; font-weight: 400; color: var(--ink-muted); text-decoration: none; letter-spacing: 0.02em; text-transform: uppercase; }
     .nav-links a:hover { color: var(--ink); }
@@ -121,7 +123,7 @@
   <!-- Nav -->
   <nav>
     <div class="container">
-      <a href="index-ja.html" class="nav-logo">Flâneur</a>
+      <a href="index-ja.html" class="nav-logo"><img src="/assets/wordmark.svg" alt="Flaneur" width="112" height="26"></a>
       <ul class="nav-links">
         <li><a href="index-ja.html">&#20024;&#12390;&#12398;&#37117;&#24066;</a></li>
         <li><a href="about-ja.html">&#20851;&#12377;&#12427;</a></li>
