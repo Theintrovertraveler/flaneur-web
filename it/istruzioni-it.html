@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">L'arte è sempre stata lì.<br><em>Bastava saperlo.</em></h1>
   <p class="lead">Un'AI ti da un itinerario basato su cio' di cui hanno scritto milioni di persone. Fl&#226;neur ti da una mappa di tutto cio' che esiste davvero nella città, e ti lascia decidere cosa conta per te.</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="Una mappa giornaliera Fl&#226;neur di Firenze, con un percorso tra Museo Horne, Cappella Brancacci, Ognissanti, Orsanmichele e Santa Maria Novella, e una scheda sul Crocifisso di Ognissanti di Giotto">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="La copertina e una pagina interna di un itinerario Fl&#226;neur per Bologna, con le tappe a orario, le opere di ogni luogo e i QR code" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">Il prodotto finito</p>
+      <h2 class="sample-title">Ecco cosa <em>ricevi.</em></h2>
+      <p class="sample-body">Un itinerario Fl&#226;neur vero, generato per Bologna: tre giorni, profilo Expert, dodici pagine. Ogni tappa calcolata sugli orari di apertura verificati, le opere che vedrai davvero in ciascun luogo, i QR code per mappe e biglietti, e i ristoranti collocati dentro il ritmo della giornata invece che accanto. Qui dentro non c&#8217;&#232; niente di finto.</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">Scarica l&#8217;itinerario di esempio</a>
+      <p class="sample-meta">PDF, 340 KB, in inglese</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

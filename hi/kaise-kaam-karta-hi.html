@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">कला हमेशा वहीं थी।<br><em>बस जानने की ज़रूरत थी।</em></h1>
   <p class="lead">एक AI आपको वह सफर देता है जो लाखों लोगों ने लिखा है उसके आधार पर। Fl&#226;neur आपको उस सबका नक्शा देता है जो शहर में सचमुच मौजूद है, और तय आप करते हैं कि क्या मायने रखता है।</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="फ्लोरेंस का एक Fl&#226;neur दिन का नक्शा, जो होर्ने म्यूज़ियम, ब्रांकाची चैपल, ओनिसांती, ओरसानमिकेले और सांता मारिया नोवेल्ला के बीच रास्ता खींचता है, साथ में जोत्तो के ओनिसांती क्रूसिफ़िक्स का एक कार्ड">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="Fl&#226;neur &#2348;&#2379;&#2354;&#2379;&#2344;&#2381;&#2351;&#2366; &#2351;&#2366;&#2340;&#2381;&#2352;&#2366;-&#2325;&#2366;&#2352;&#2381;&#2351;&#2325;&#2381;&#2352;&#2350; &#2325;&#2366; &#2325;&#2357;&#2352; &#2324;&#2352; &#2319;&#2325; &#2349;&#2368;&#2340;&#2352;&#2368; &#2346;&#2371;&#2359;&#2381;&#2336;" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">&#2340;&#2376;&#2351;&#2366;&#2352; &#2313;&#2340;&#2381;&#2346;&#2366;&#2342;</p>
+      <h2 class="sample-title">&#2310;&#2346;&#2325;&#2379; <em>&#2351;&#2361;&#2368; &#2350;&#2367;&#2354;&#2340;&#2366; &#2361;&#2376;&#2404;</em></h2>
+      <p class="sample-body">&#2348;&#2379;&#2354;&#2379;&#2344;&#2381;&#2351;&#2366; &#2325;&#2375; &#2354;&#2367;&#2319; &#2348;&#2344;&#2366;&#2351;&#2366; &#2327;&#2351;&#2366; &#2319;&#2325; &#2309;&#2360;&#2354;&#2368; Fl&#226;neur &#2351;&#2366;&#2340;&#2381;&#2352;&#2366;-&#2325;&#2366;&#2352;&#2381;&#2351;&#2325;&#2381;&#2352;&#2350;: &#2340;&#2368;&#2344; &#2342;&#2367;&#2344;, Expert &#2346;&#2381;&#2352;&#2379;&#2092;&#2366;&#2311;&#2354;, &#2348;&#2366;&#2352;&#2361; &#2346;&#2371;&#2359;&#2381;&#2336;&#2404; &#2361;&#2352; &#2346;&#2337;&#2364;&#2366;&#2357; &#2360;&#2340;&#2381;&#2351;&#2366;&#2346;&#2367;&#2340; &#2326;&#2369;&#2354;&#2344;&#2375; &#2325;&#2375; &#2360;&#2350;&#2351; &#2325;&#2375; &#2309;&#2344;&#2369;&#2360;&#2366;&#2352; &#2340;&#2351;, &#2361;&#2352; &#2332;&#2327;&#2361; &#2346;&#2352; &#2357;&#2366;&#2360;&#2381;&#2340;&#2357; &#2350;&#2375;&#2306; &#2342;&#2367;&#2326;&#2344;&#2375; &#2357;&#2366;&#2354;&#2368; &#2325;&#2371;&#2340;&#2367;&#2351;&#2366;&#2305;, &#2344;&#2325;&#2381;&#2358;&#2379;&#2306; &#2324;&#2352; &#2335;&#2367;&#2325;&#2335;&#2379;&#2306; &#2325;&#2375; &#2354;&#2367;&#2319; QR &#2325;&#2379;&#2337;, &#2324;&#2352; &#2342;&#2367;&#2344; &#2325;&#2368; &#2354;&#2351; &#2350;&#2375;&#2306; &#2352;&#2326;&#2375; &#2327;&#2319; &#2352;&#2375;&#2360;&#2381;&#2340;&#2352;&#2366;&#2306;&#2404; &#2351;&#2361;&#2366;&#2305; &#2325;&#2369;&#2331; &#2349;&#2368; &#2325;&#2366;&#2354;&#2381;&#2346;&#2344;&#2367;&#2325; &#2344;&#2361;&#2368;&#2306; &#2361;&#2376;&#2404;</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">&#2344;&#2350;&#2370;&#2344;&#2366; &#2351;&#2366;&#2340;&#2381;&#2352;&#2366;-&#2325;&#2366;&#2352;&#2381;&#2351;&#2325;&#2381;&#2352;&#2350; &#2337;&#2366;&#2313;&#2344;&#2354;&#2379;&#2337; &#2325;&#2352;&#2375;&#2306;</a>
+      <p class="sample-meta">PDF, 340 KB, &#2309;&#2306;&#2327;&#2381;&#2352;&#2375;&#2091;&#2368; &#2350;&#2375;&#2306;</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

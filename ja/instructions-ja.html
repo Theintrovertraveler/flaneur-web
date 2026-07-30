@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">芸術はずっとそこにあった。<br><em>知る必要があっただけ。</em></h1>
   <p class="lead">AI は何百万人が書いた内容をもとに旅程を渡します。Fl&#226;neur が渡すのは、街に実際に存在するすべての地図であり、何が大切かをあなたに決めさせます。</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="ホルネ美術館、ブランカッチ礼拝堂、オニサンティ教会、オルサンミケーレ、サンタ・マリア・ノヴェッラを結ぶフィレンツェの Fl&#226;neur 日程地図。ジョットの《オニサンティの磔刑》のカード付き">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="Fl&#226;neur &#12398;&#12508;&#12525;&#12540;&#12491;&#12515;&#26053;&#31243;&#12398;&#34920;&#32025;&#12392;&#26412;&#25991;&#12506;&#12540;&#12472;" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">&#23436;&#25104;&#21697;</p>
+      <h2 class="sample-title">&#12371;&#12428;&#12364;<em>&#21463;&#12369;&#21462;&#12427;&#12418;&#12398;&#12391;&#12377;&#12290;</em></h2>
+      <p class="sample-body">&#12508;&#12525;&#12540;&#12491;&#12515;&#21521;&#12369;&#12395;&#29983;&#25104;&#12373;&#12428;&#12383;&#23455;&#38555;&#12398; Fl&#226;neur &#12398;&#26053;&#31243;&#12290;3&#26085;&#38291;&#12289;Expert &#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#12289;12&#12506;&#12540;&#12472;&#12290;&#21508;&#35370;&#21839;&#20808;&#12399;&#30906;&#35469;&#28168;&#12415;&#12398;&#38283;&#39208;&#26178;&#38291;&#12395;&#22522;&#12389;&#12356;&#12390;&#32068;&#12414;&#12428;&#12289;&#12381;&#12428;&#12382;&#12428;&#12398;&#22580;&#25152;&#12391;&#23455;&#38555;&#12395;&#35211;&#12425;&#12428;&#12427;&#20316;&#21697;&#12289;&#22320;&#22259;&#12392;&#12481;&#12465;&#12483;&#12488;&#12398;QR&#12467;&#12540;&#12489;&#12289;&#12381;&#12375;&#12390;&#19968;&#26085;&#12398;&#12522;&#12474;&#12512;&#12395;&#32068;&#12415;&#36796;&#12414;&#12428;&#12383;&#12524;&#12473;&#12488;&#12521;&#12531;&#12364;&#36617;&#12387;&#12390;&#12356;&#12414;&#12377;&#12290;&#12514;&#12483;&#12463;&#12450;&#12483;&#12503;&#12399;&#19968;&#12388;&#12418;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">&#12469;&#12531;&#12503;&#12523;&#26053;&#31243;&#12434;&#12480;&#12454;&#12531;&#12525;&#12540;&#12489;</a>
+      <p class="sample-meta">PDF&#12289;340 KB&#12289;&#33521;&#35486;</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

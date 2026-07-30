@@ -88,6 +88,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .prof-card{border-right:none;border-bottom:1px solid var(--rule);}
   .prof-card:last-child{border-bottom:none;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style>
 </head>
 <body>
@@ -101,6 +116,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <p class="eyebrow">运作方式</p>
   <h1 class="page-title">几个问题。<br><em>一天精准行程。</em></h1>
   <p class="lead">一份看似简单的行程背后，是一个核查开放时间、计算距离并将你的选择安排成合理序列的引擎。你只需花五分钟回答问题。</p>
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="Fl&#226;neur &#21338;&#27931;&#23612;&#34892;&#31243;&#30340;&#23553;&#38754;&#19982;&#20869;&#39029;" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">&#25104;&#21697;</p>
+      <h2 class="sample-title">&#36825;&#23601;&#26159;<em>&#20320;&#25910;&#21040;&#30340;&#19996;&#35199;&#12290;</em></h2>
+      <p class="sample-body">&#19968;&#20221;&#30495;&#23454;&#30340; Fl&#226;neur &#34892;&#31243;&#65292;&#20026;&#21338;&#27931;&#23612;&#29983;&#25104;&#65306;&#19977;&#22825;&#12289;Expert &#26723;&#26696;&#12289;&#21313;&#20108;&#39029;&#12290;&#27599;&#19968;&#31449;&#37117;&#25353;&#26680;&#23454;&#36807;&#30340;&#24320;&#25918;&#26102;&#38388;&#25490;&#23450;&#65292;&#21015;&#20986;&#20320;&#22312;&#27599;&#20010;&#22320;&#28857;&#30495;&#27491;&#33021;&#30475;&#21040;&#30340;&#20316;&#21697;&#65292;&#38468;&#26377;&#22320;&#22270;&#21644;&#38376;&#31080;&#30340;&#20108;&#32500;&#30721;&#65292;&#39184;&#21381;&#34701;&#20837;&#19968;&#22825;&#30340;&#33410;&#22863;&#12290;&#36825;&#37324;&#27809;&#26377;&#20219;&#20309;&#34394;&#26500;&#20869;&#23481;&#12290;</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">&#19979;&#36733;&#34892;&#31243;&#26679;&#26412;</a>
+      <p class="sample-meta">PDF&#65292;340 KB&#65292;&#33521;&#25991;</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

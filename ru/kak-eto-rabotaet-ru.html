@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">Искусство всегда было здесь.<br><em>Нужно было лишь знать.</em></h1>
   <p class="lead">ИИ выдаёт вам маршрут на основе того, о чём писали миллионы людей. Fl&#226;neur даёт карту всего, что на самом деле существует в городе, и позволяет вам решить, что важно именно для вас.</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="Карта дня Fl&#226;neur по Флоренции, прокладывающая путь между музеем Хорна, капеллой Бранкаччи, церковью Оньиссанти, Орсанмикеле и Санта-Мария-Новелла, с карточкой о «Распятии Оньиссанти» Джотто">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="&#1054;&#1073;&#1083;&#1086;&#1078;&#1082;&#1072; &#1080; &#1074;&#1085;&#1091;&#1090;&#1088;&#1077;&#1085;&#1085;&#1103;&#1103; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072; &#1084;&#1072;&#1088;&#1096;&#1088;&#1091;&#1090;&#1072; Fl&#226;neur &#1087;&#1086; &#1041;&#1086;&#1083;&#1086;&#1085;&#1100;&#1077;" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">&#1043;&#1086;&#1090;&#1086;&#1074;&#1099;&#1081; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;</p>
+      <h2 class="sample-title">&#1042;&#1086;&#1090; &#1095;&#1090;&#1086; <em>&#1074;&#1099; &#1087;&#1086;&#1083;&#1091;&#1095;&#1080;&#1090;&#1077;.</em></h2>
+      <p class="sample-body">&#1053;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1080;&#1081; &#1084;&#1072;&#1088;&#1096;&#1088;&#1091;&#1090; Fl&#226;neur, &#1089;&#1086;&#1079;&#1076;&#1072;&#1085;&#1085;&#1099;&#1081; &#1076;&#1083;&#1103; &#1041;&#1086;&#1083;&#1086;&#1085;&#1100;&#1080;: &#1090;&#1088;&#1080; &#1076;&#1085;&#1103;, &#1087;&#1088;&#1086;&#1092;&#1080;&#1083;&#1100; Expert, &#1076;&#1074;&#1077;&#1085;&#1072;&#1076;&#1094;&#1072;&#1090;&#1100; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;. &#1050;&#1072;&#1078;&#1076;&#1072;&#1103; &#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1082;&#1072; &#1088;&#1072;&#1089;&#1089;&#1095;&#1080;&#1090;&#1072;&#1085;&#1072; &#1087;&#1086; &#1087;&#1088;&#1086;&#1074;&#1077;&#1088;&#1077;&#1085;&#1085;&#1099;&#1084; &#1095;&#1072;&#1089;&#1072;&#1084; &#1088;&#1072;&#1073;&#1086;&#1090;&#1099;, &#1091;&#1082;&#1072;&#1079;&#1072;&#1085;&#1099; &#1088;&#1072;&#1073;&#1086;&#1090;&#1099;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1099; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1091;&#1074;&#1080;&#1076;&#1080;&#1090;&#1077;, QR-&#1082;&#1086;&#1076;&#1099; &#1076;&#1083;&#1103; &#1082;&#1072;&#1088;&#1090; &#1080; &#1073;&#1080;&#1083;&#1077;&#1090;&#1086;&#1074;, &#1088;&#1077;&#1089;&#1090;&#1086;&#1088;&#1072;&#1085;&#1099; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080; &#1088;&#1080;&#1090;&#1084;&#1072; &#1076;&#1085;&#1103;. &#1047;&#1076;&#1077;&#1089;&#1100; &#1085;&#1077;&#1090; &#1085;&#1080;&#1095;&#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1076;&#1091;&#1084;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086;.</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">&#1057;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1087;&#1088;&#1080;&#1084;&#1077;&#1088; &#1084;&#1072;&#1088;&#1096;&#1088;&#1091;&#1090;&#1072;</a>
+      <p class="sample-meta">PDF, 340 &#1050;&#1041;, &#1085;&#1072; &#1072;&#1085;&#1075;&#1083;&#1080;&#1081;&#1089;&#1082;&#1086;&#1084;</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">De kunst was er altijd al.<br><em>Je moest het alleen weten.</em></h1>
   <p class="lead">Een AI geeft je een reisschema op basis van waar miljoenen mensen over hebben geschreven. Fl&#226;neur geeft je een kaart van alles wat er echt bestaat in de stad, en laat jou beslissen wat ertoe doet.</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="Een Fl&#226;neur-dagkaart van Florence, met een route tussen Museo Horne, de Brancacci-kapel, Ognissanti, Orsanmichele en Santa Maria Novella, met een kaartje over Giotto's Ognissanti-kruisbeeld">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="De omslag en een binnenpagina van een Fl&#226;neur-route voor Bologna, met stops op tijd, de werken per locatie en QR-codes" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">Het eindproduct</p>
+      <h2 class="sample-title">Dit is wat <em>u krijgt.</em></h2>
+      <p class="sample-body">Een echte Fl&#226;neur-route, gegenereerd voor Bologna: drie dagen, profiel Expert, twaalf pagina&#8217;s. Elke stop afgestemd op geverifieerde openingstijden, de werken die u op elke plek daadwerkelijk ziet, QR-codes voor kaarten en tickets, en restaurants die in het ritme van de dag liggen in plaats van ernaast. Niets hiervan is een mockup.</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">Voorbeeldroute downloaden</a>
+      <p class="sample-meta">PDF, 340 KB, in het Engels</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">

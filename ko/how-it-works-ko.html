@@ -217,6 +217,21 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   .op-num{padding-left:0.75rem;}
   .op-body{padding:1rem 1rem;}
 }
+
+/* Sample itinerary band */
+.sample-band{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:3.75rem 2.5rem;}
+.sample-inner{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;}
+.sample-shot{display:block;line-height:0;}
+.sample-shot img{width:100%;height:auto;border:1px solid var(--rule);box-shadow:0 18px 44px rgba(26,23,20,0.12);transition:transform .35s ease,box-shadow .35s ease;}
+.sample-shot:hover img{transform:translateY(-5px);box-shadow:0 26px 56px rgba(26,23,20,0.16);}
+.sample-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--pompeiano);margin-bottom:0.75rem;}
+.sample-title{font-family:var(--ff-e);font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:300;line-height:1.15;color:var(--ink);}
+.sample-title em{font-style:italic;color:var(--pompeiano);}
+.sample-body{font-size:0.95rem;font-weight:300;color:var(--ink-muted);line-height:1.85;margin-top:1rem;}
+.sample-btn{font-family:var(--ff-s);font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--paper);background:var(--pompeiano);padding:0.75rem 1.6rem;text-decoration:none;display:inline-block;margin-top:1.75rem;}
+.sample-btn:hover{opacity:0.88;}
+.sample-meta{font-size:0.75rem;color:var(--ink-subtle);margin-top:0.9rem;}
+@media(max-width:860px){.sample-band{padding:2.5rem 1.5rem;}.sample-inner{grid-template-columns:1fr;gap:2rem;}}
 </style><body>
 
 <nav>
@@ -230,6 +245,23 @@ footer{border-top:1px solid var(--rule);padding:1.5rem 2.5rem;display:flex;justi
   <h1 class="page-title">예술은 늘 그곳에 있었습니다.<br><em>알기만 하면 되었죠.</em></h1>
   <p class="lead">AI 는 수백만 명이 써 온 것을 바탕으로 여정을 건넵니다. Fl&#226;neur 는 도시에 실제로 존재하는 모든 것의 지도를 건네고, 무엇이 중요한지는 당신이 정하게 합니다.</p>
   <img class="hero-shot" src="/assets/hero-flaneur.webp" alt="호르네 미술관, 브란카치 예배당, 오니산티, 오르산미켈레, 산타 마리아 노벨라를 잇는 피렌체의 Fl&#226;neur 하루 지도. 조토의 《오니산티 십자가》 카드 포함">
+</div>
+
+
+<!-- SAMPLE ITINERARY -->
+<div class="sample-band">
+  <div class="sample-inner">
+    <a class="sample-shot" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">
+      <img src="/assets/sample-itinerary.webp" alt="Fl&#226;neur &#48380;&#47196;&#45224; &#51068;&#51221;&#51032; &#54364;&#51648;&#50752; &#48376;&#47928; &#54168;&#51060;&#51648;" width="1464" height="1092" loading="lazy" decoding="async">
+    </a>
+    <div class="sample-copy">
+      <p class="sample-eyebrow">&#50756;&#49457;&#46108; &#44208;&#44284;&#47932;</p>
+      <h2 class="sample-title">&#48155;&#51004;&#49884;&#45716; &#44163;&#51008; <em>&#51060;&#47827;&#49845;&#45768;&#45796;.</em></h2>
+      <p class="sample-body">&#48380;&#47196;&#45224;&#47484; &#50948;&#54644; &#49373;&#49457;&#46108; &#49892;&#51228; Fl&#226;neur &#51068;&#51221;&#51077;&#45768;&#45796;. 3&#51068;, Expert &#54532;&#47196;&#54596;, 12&#54168;&#51060;&#51648;. &#47784;&#46304; &#48169;&#47928;&#51648;&#45716; &#54869;&#51064;&#46108; &#44060;&#44288; &#49884;&#44036;&#50640; &#47582;&#52368; &#48176;&#52824;&#46104;&#44256;, &#44033; &#51109;&#49548;&#50640;&#49436; &#49892;&#51228;&#47196; &#48380; &#49688; &#51080;&#45716; &#51089;&#54408;, &#51648;&#46020;&#50752; &#51077;&#51109;&#44428; QR &#53076;&#46300;, &#44536;&#47532;&#44256; &#54616;&#47336;&#51032; &#54744;&#50640; &#45580;&#51064; &#49885;&#45817;&#51060; &#45324;&#50612; &#51080;&#49845;&#45768;&#45796;. &#44032;&#49345;&#51004;&#47196; &#47564;&#46304; &#44163;&#51008; &#54616;&#45208;&#46020; &#50630;&#49845;&#45768;&#45796;.</p>
+      <a class="sample-btn" href="/assets/Flaneur-Bologna-3days.pdf" target="_blank" rel="noopener">&#49328;&#54540; &#51068;&#51221; &#45236;&#47140;&#48155;&#44592;</a>
+      <p class="sample-meta">PDF, 340 KB, &#50689;&#50612;</p>
+    </div>
+  </div>
 </div>
 
 <hr class="rule">
